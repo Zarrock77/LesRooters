@@ -1,0 +1,15 @@
+{
+  "device": 1,
+  "name": "NVIDIA H100 PCIe",
+  "memory_bytes": 85017493504,
+  "compute_capability": [
+    9,
+    0
+  ],
+  "torch": "2.5.1+cu124",
+  "cuda_runtime": "12.4",
+  "bf16_matmul": true,
+  "backward_finite": true,
+  "nccl_world_size": 2,
+  "nccl_all_reduce": 3.0
+}

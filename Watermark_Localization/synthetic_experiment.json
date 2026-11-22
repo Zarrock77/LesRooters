@@ -1,0 +1,26 @@
+{
+  "name": "synthetic_v1",
+  "hypothesis": "Source-disjoint synthetic presence/absence pairs can teach watermark evidence before supervised localization, while recomputing decoder guidance for each real-image augmentation preserves watermark-decoder alignment. This is a combined intervention, not an isolated synthetic-pretraining ablation.",
+  "architecture": "The unchanged SpatialSegmenter used by spatial_v1; Adobe body and PixelSeal encoder remain frozen, FPN and segmentation head trainable.",
+  "variants": 1,
+  "pretrain_epochs": 20,
+  "pretrain_steps_per_epoch": 41,
+  "batch_size": 8,
+  "pretrain_sampling": "Uniform sampling with replacement, 328 samples per epoch, only descendants of the 324 real fit parents; 1296 eligible synthetic images per fold.",
+  "pretrain_augmentation": "None: preserve alignment of cached guidance and the embedded watermark.",
+  "pretrain_selection": "Fixed 820 optimizer updates; no synthetic validation, early stopping, checkpoint or threshold selection.",
+  "pretrain_optimization": "Existing SpatialSegmenter optimizer: AdamW FPN 5e-5, new head 0.002, weight decay 1e-4; cosine schedule over 20 epochs, BCE plus two-class soft Dice.",
+  "epochs": 120,
+  "real_training": "Fresh optimizer and 120-epoch schedule after synthetic pretraining; localization_v2 training on 324 fit images and 84 inner tuning images. Real fit images and masks receive joint dihedral augmentation, but guidance is recomputed by the frozen decoders on each transformed RGB image, G(Rx), rather than transforming G(x). Real tuning and inference use identity images and original guidance.",
+  "selection": "Real inner tune only, per method: checkpoints at epoch 1 and multiples of 5; threshold grid 0.2..0.8 step 0.05.",
+  "split": "Reuse exact five Adobe nested splits. Every synthetic image's source parent must be in fit, disjoint from inner tune and outer validation, before any pretraining update.",
+  "reference": "Spatial if that earlier candidate passes the registered promotion gate, otherwise Adobe; comparison occurs after all five folds. Adobe's partition membership is retained in either case.",
+  "promotion": "All five paired fold gains positive; mean OOF gain >=0.002; conditional paired bootstrap 99% lower bound >0, seed 20261126 and 20000 resamples.",
+  "public_leaderboard": "Never used for tuning, checkpoint selection or promotion gate.",
+  "sources": [
+    "https://collomosse.com/pubs/Agarwal-WACV-2026.pdf",
+    "https://arxiv.org/html/2512.16874v1",
+    "https://arxiv.org/html/2212.10957v3"
+  ],
+  "limitations": "Synthetic parents already contain a different watermark method; target method and random message differ from their original method. This is domain-shift mitigation, not clean-image ground truth. Reused development data and absent original source IDs prevent guarantees against overfitting. Synthetic labels come from known residual placement and are never copied from real training masks."
+}

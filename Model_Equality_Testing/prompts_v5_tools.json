@@ -1,0 +1,1 @@
+[["create_event", "schedule_meeting", "add_event", "book_calendar_event"], ["gmail_send_email", "outlook_send_email", "smtp_send_mail", "yahoo_send_message"], ["get_weather", "weather_lookup", "fetch_forecast", "query_climate_api"], ["create_note", "save_memo", "notion_add_page", "evernote_store"], ["google_translate", "deepl_translate", "translate_text", "azure_translator"]]

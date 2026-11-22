@@ -1,0 +1,122 @@
+{
+  "feature_version": "message-agreement-v1-full-spatial-or-256-window-stride128",
+  "seed": 20261121,
+  "split_sha256": "2db38a6569363cb10acca23b25a9bba669b19df8733177b4b61587b1ade8828e",
+  "validation_images": 102,
+  "methods": {
+    "pixelseal": {
+      "n_train": 136,
+      "n_validation": 34,
+      "selected_on_train": "message_bit_agreement",
+      "selected_message_feature_on_train": "message_bit_agreement",
+      "candidates": {
+        "all_clean": {
+          "threshold": null,
+          "train_miou": 0.2554020601160386,
+          "validation_miou": 0.24353924919577205
+        },
+        "all_watermarked": {
+          "threshold": null,
+          "train_miou": 0.2445979398839614,
+          "validation_miou": 0.2564607508042279
+        },
+        "train_spatial_prior": {
+          "threshold": 0.49999999999999994,
+          "train_miou": 0.3016624988723537,
+          "validation_miou": 0.29054774500618186
+        },
+        "message_bit_agreement": {
+          "threshold": 0.69,
+          "train_miou": 0.4716204549740682,
+          "validation_miou": 0.4827983203346127
+        },
+        "message_soft_agreement": {
+          "threshold": 0.71,
+          "train_miou": 0.4702854778078072,
+          "validation_miou": 0.4668615635436095
+        }
+      }
+    },
+    "trustmark": {
+      "n_train": 136,
+      "n_validation": 34,
+      "selected_on_train": "message_soft_agreement",
+      "selected_message_feature_on_train": "message_soft_agreement",
+      "candidates": {
+        "all_clean": {
+          "threshold": null,
+          "train_miou": 0.2505616580738741,
+          "validation_miou": 0.23960427676930146
+        },
+        "all_watermarked": {
+          "threshold": null,
+          "train_miou": 0.2494383419261259,
+          "validation_miou": 0.26039572323069854
+        },
+        "train_spatial_prior": {
+          "threshold": 0.49999999999999994,
+          "train_miou": 0.3114690142131192,
+          "validation_miou": 0.2945079253339756
+        },
+        "message_bit_agreement": {
+          "threshold": 0.59,
+          "train_miou": 0.46284485867610237,
+          "validation_miou": 0.48320545103352436
+        },
+        "message_soft_agreement": {
+          "threshold": 0.5599999999999999,
+          "train_miou": 0.46683279425298946,
+          "validation_miou": 0.4728377563154786
+        }
+      }
+    },
+    "stegastamp": {
+      "n_train": 136,
+      "n_validation": 34,
+      "selected_on_train": "train_spatial_prior",
+      "selected_message_feature_on_train": "message_bit_agreement",
+      "candidates": {
+        "all_clean": {
+          "threshold": null,
+          "train_miou": 0.25740612254423256,
+          "validation_miou": 0.24022270651424632
+        },
+        "all_watermarked": {
+          "threshold": null,
+          "train_miou": 0.24259387745576746,
+          "validation_miou": 0.2597772934857537
+        },
+        "train_spatial_prior": {
+          "threshold": 0.49999999999999994,
+          "train_miou": 0.2968103361282937,
+          "validation_miou": 0.30878912305985035
+        },
+        "message_bit_agreement": {
+          "threshold": 0.49,
+          "train_miou": 0.284963568511031,
+          "validation_miou": 0.23850997607404498
+        },
+        "message_soft_agreement": {
+          "threshold": 0.49999999999999994,
+          "train_miou": 0.2834627010372547,
+          "validation_miou": 0.22682989212378815
+        }
+      }
+    }
+  },
+  "validation_miou": {
+    "all_clean": 0.24112207749310663,
+    "all_watermarked": 0.2588779225068934,
+    "train_spatial_prior": 0.2979482644666693,
+    "message_bit_agreement": 0.40150458248072735,
+    "message_soft_agreement": 0.38884307066095875,
+    "selected_per_method_on_train": 0.42147506656998046,
+    "message_feature_selected_on_train": 0.3980486842413788
+  },
+  "selection_rule": "All thresholds, feature choices and fallback choices use calibration images only.",
+  "caveats": [
+    "No source-image identifiers supplied; similar source images may escape this heuristic.",
+    "This is one local split, not a leaderboard or hidden-test estimate.",
+    "full_watermark and ground-truth mask area are not inference inputs."
+  ]
+}

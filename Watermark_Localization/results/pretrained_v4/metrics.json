@@ -1,0 +1,39 @@
+{
+  "methods": {
+    "pixelseal": {
+      "validation_miou": 0.5092824447214297,
+      "n": 34,
+      "inner_selection": {
+        "threshold": 0.8,
+        "miou": 0.5190063423780557,
+        "epoch": 85
+      }
+    },
+    "trustmark": {
+      "validation_miou": 0.5311007044847648,
+      "n": 34,
+      "inner_selection": {
+        "threshold": 0.7500000000000002,
+        "miou": 0.5210856781606529,
+        "epoch": 70
+      }
+    },
+    "stegastamp": {
+      "validation_miou": 0.5855243962375406,
+      "n": 34,
+      "inner_selection": {
+        "threshold": 0.2,
+        "miou": 0.5903612846443179,
+        "epoch": 90
+      }
+    }
+  },
+  "validation_miou": 0.5419691818145783,
+  "baseline_validation_miou": 0.42147506656998046,
+  "fit_images": 324,
+  "inner_tune_images": 84,
+  "validation_images": 102,
+  "checkpoint_selection": "Inner tune only; original validation evaluated after training.",
+  "epochs": 120,
+  "seed": 20261122
+}

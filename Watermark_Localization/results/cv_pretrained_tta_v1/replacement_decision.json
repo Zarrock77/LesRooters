@@ -1,0 +1,32 @@
+{
+  "candidate": "pretrained_tta",
+  "reference": "pretrained",
+  "export_recommended": false,
+  "rule": "All five fold gains positive, paired bootstrap 99% lower bound positive, mean gain >= 0.002.",
+  "caveat": "Conditional image bootstrap. Reused development data; not an untouched final test.",
+  "oof_miou": 0.5306212059933904,
+  "paired_gain": -0.0005379500875514709,
+  "paired_gain_99pct": [
+    -0.007090288981876873,
+    0.005853202020898182
+  ],
+  "fold_miou": [
+    0.5335362678384747,
+    0.5314958158447513,
+    0.545221526776341,
+    0.5243578674370133,
+    0.5184945520703714
+  ],
+  "fold_gain": [
+    0.00462798892406603,
+    0.0017711452264414752,
+    0.0017463405001459148,
+    0.003360841593943662,
+    -0.014196066682354437
+  ],
+  "methods": {
+    "pixelseal": 0.5055821436834607,
+    "trustmark": 0.4972602453743377,
+    "stegastamp": 0.5890212289223725
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "task_id": "34-watermark-localisation-image",
+  "endpoint": "http://34.147.229.55/submit/34-watermark-localisation-image",
+  "artifact_sha256": "2b26967f3e04d44771f75889874fd968ba419f20b6d780b01f0c3cd25060f4d8",
+  "artifact_bytes": 16734779,
+  "started_at": "2026-11-22T00:04:35.236393+00:00",
+  "status": "rejected",
+  "finished_at": "2026-11-22T00:04:55.296656+00:00",
+  "http_status": 429,
+  "retry_after": null,
+  "server_date": "Sun, 22 Nov 2026 01:04:54 GMT",
+  "response": {
+    "detail": "You submitted too recently (last submission successful). Wait 461 seconds before sending another submission."
+  }
+}

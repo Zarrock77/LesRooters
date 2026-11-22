@@ -1,0 +1,21 @@
+{
+  "task_id": "34-watermark-localisation-image",
+  "endpoint": "http://34.147.229.55/submit/34-watermark-localisation-image",
+  "artifact_sha256": "fff515ff344009692f7cdabd02aff0e71ae68d3af04eb8a03344947b777e387b",
+  "artifact_bytes": 16734779,
+  "started_at": "2026-11-21T22:33:43.447280+00:00",
+  "status": "accepted",
+  "finished_at": "2026-11-21T22:33:44.845461+00:00",
+  "http_status": 200,
+  "retry_after": null,
+  "server_date": "Sat, 21 Nov 2026 23:33:44 GMT",
+  "response": {
+    "submission_id": 2123,
+    "status": "success",
+    "score": 0.7589,
+    "previous_best": 0.752,
+    "delta": 0.0069,
+    "improved": true,
+    "message": "New best on this task. Score shown is on the public split; the final ranking uses the held out subset, revealed after submissions close."
+  }
+}

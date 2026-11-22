@@ -1,0 +1,173 @@
+{
+ "task_id": "34-watermark-localisation-image",
+ "images": 1020,
+ "shape": [
+  1020,
+  128,
+  128
+ ],
+ "binary": true,
+ "unique_names_match_test_metadata": true,
+ "sha256": "29d9f9fec29e036003054ad46bc52543d8f19eccbb71c7398d89563c13eb40a1",
+ "bytes": 16734779,
+ "oof_miou": 0.742739309082792,
+ "test_snapped_rectangles": 169,
+ "test_snapping_settings": {
+  "pixelseal": [
+   4.0,
+   [
+    2.0,
+    0.0,
+    -2.0,
+    0.0
+   ]
+  ],
+  "trustmark": [
+   2.5,
+   [
+    0.0,
+    1.0,
+    3.7426314673803063,
+    5.0
+   ]
+  ],
+  "stegastamp": [
+   5.0,
+   [
+    1.0,
+    2.0,
+    -2.0,
+    -2.5
+   ]
+  ]
+ },
+ "test_positive_fraction": 0.4955556832107843,
+ "uniform_test_masks": 90,
+ "artifact": "lesrooters_watermark_fable.pt",
+ "dtype": "torch.bool",
+ "candidate": "combo_c_rect",
+ "validation_expected_predictions": 510,
+ "validation_predictions_checked": 510,
+ "validation_predictions_reproduced_exactly": 496,
+ "validation_replay_mode": "bounded_gpu_numerics",
+ "validation_replay_limits": {
+  "pixel_disagreement_fraction": 0.001,
+  "max_image_pixel_disagreement_fraction": 0.005,
+  "probability_mean_absolute_difference": 0.002,
+  "absolute_miou_difference": 0.001,
+  "max_image_miou_difference": 0.01
+ },
+ "validation_reference": "five outer folds; each fold model replayed on images it never saw",
+ "components": [
+  {
+   "fold": 0,
+   "validation_replay": {
+    "checked_images": 102,
+    "exact_images": 100,
+    "pixel_disagreement_fraction": 1.7951516544117647e-06,
+    "max_image_pixel_disagreement_fraction": 0.0001220703125,
+    "probability_mean_absolute_difference": 2.2892086235515308e-06,
+    "probability_max_absolute_difference": 0.00439453125,
+    "reference_miou": 0.7119375310831656,
+    "recomputed_miou": 0.7119403997231611,
+    "absolute_miou_difference": 2.868639995545763e-06,
+    "max_image_miou_difference": 0.00029260127956454163
+   }
+  },
+  {
+   "fold": 1,
+   "validation_replay": {
+    "checked_images": 102,
+    "exact_images": 98,
+    "pixel_disagreement_fraction": 2.991919424019608e-06,
+    "max_image_pixel_disagreement_fraction": 0.0001220703125,
+    "probability_mean_absolute_difference": 1.8805086483553168e-06,
+    "probability_max_absolute_difference": 0.00390625,
+    "reference_miou": 0.7320792223845776,
+    "recomputed_miou": 0.7320529499619255,
+    "absolute_miou_difference": 2.6272422652073857e-05,
+    "max_image_miou_difference": 0.002048373285406746
+   }
+  },
+  {
+   "fold": 2,
+   "validation_replay": {
+    "checked_images": 102,
+    "exact_images": 101,
+    "pixel_disagreement_fraction": 5.983838848039216e-07,
+    "max_image_pixel_disagreement_fraction": 6.103515625e-05,
+    "probability_mean_absolute_difference": 1.822442868615326e-06,
+    "probability_max_absolute_difference": 0.0029296875,
+    "reference_miou": 0.7352346203172921,
+    "recomputed_miou": 0.7352337285239748,
+    "absolute_miou_difference": 8.917933173036019e-07,
+    "max_image_miou_difference": 9.096291835586356e-05
+   }
+  },
+  {
+   "fold": 3,
+   "validation_replay": {
+    "checked_images": 102,
+    "exact_images": 97,
+    "pixel_disagreement_fraction": 2.991919424019608e-06,
+    "max_image_pixel_disagreement_fraction": 6.103515625e-05,
+    "probability_mean_absolute_difference": 1.940184120030608e-06,
+    "probability_max_absolute_difference": 0.00341796875,
+    "reference_miou": 0.7129114953133222,
+    "recomputed_miou": 0.7129034067129905,
+    "absolute_miou_difference": 8.088600331745965e-06,
+    "max_image_miou_difference": 0.001928572095345693
+   }
+  },
+  {
+   "fold": 4,
+   "validation_replay": {
+    "checked_images": 102,
+    "exact_images": 100,
+    "pixel_disagreement_fraction": 1.1967677696078431e-06,
+    "max_image_pixel_disagreement_fraction": 6.103515625e-05,
+    "probability_mean_absolute_difference": 2.220176611444913e-06,
+    "probability_max_absolute_difference": 0.0048828125,
+    "reference_miou": 0.7317950823071818,
+    "recomputed_miou": 0.7318024405806259,
+    "absolute_miou_difference": 7.35827344411355e-06,
+    "max_image_miou_difference": 0.0005645552873074777
+   }
+  }
+ ],
+ "candidate_oof_metrics": {
+  "oof_miou_threshold_only": 0.7247915902811078,
+  "oof_miou": 0.742739309082792,
+  "folds": [
+   0.7295948300176053,
+   0.7501829598384236,
+   0.7479558992888066,
+   0.7342488610520315,
+   0.7517139952170928
+  ],
+  "methods": {
+   "pixelseal": 0.6347860944779317,
+   "trustmark": 0.7158843775860596,
+   "stegastamp": 0.8775474551843846
+  },
+  "full_watermark": {
+   "True": 0.7184078168053081,
+   "False": 0.7670708013602756
+  },
+  "reference_oof": 0.5580328390177366,
+  "paired_gain": 0.18470647006505528,
+  "paired_gain_99pct": [
+   0.16540536715176565,
+   0.20403802512022104
+  ],
+  "fold_gain": [
+   0.16418693906128334,
+   0.19404864671710817,
+   0.18412634966007752,
+   0.19435223241813482,
+   0.1868181824686726
+  ],
+  "improved_images": 456,
+  "worse_images": 48
+ }
+}

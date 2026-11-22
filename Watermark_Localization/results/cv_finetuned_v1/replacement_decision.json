@@ -1,0 +1,18 @@
+{
+  "incumbent": "pretrained",
+  "paired_gain": 0.0001370758601061423,
+  "paired_gain_95pct": [
+    -0.0011273981181061923,
+    0.001482786792611173
+  ],
+  "fold_gain": [
+    0.0008561734401532264,
+    -9.35277447809663e-06,
+    -0.0010710933447997117,
+    0.0009442499812021287,
+    -3.4598001546835166e-05
+  ],
+  "export_recommended": false,
+  "rule": "Positive paired-bootstrap lower bound and positive gain in every fold over current CV winner.",
+  "caveat": "Conditional bootstrap; exploratory architectures, not a pristine final test."
+}

@@ -1,0 +1,493 @@
+{
+  "artifact": "lesrooters_watermark_adobe_v1.pt",
+  "sha256": "08a04113daa96c12a12f857da5799ddc330f1a8f775af176f9efbd8aa818d539",
+  "bytes": 16734794,
+  "task_id": "34-watermark-localisation-image",
+  "images": 1020,
+  "shape": [
+    1020,
+    128,
+    128
+  ],
+  "dtype": "torch.bool",
+  "binary": true,
+  "unique_names_match_test_metadata": true,
+  "validation_expected_predictions": 510,
+  "validation_predictions_reproduced_exactly": 510,
+  "validation_predictions_checked": 510,
+  "validation_replay_mode": "exact",
+  "validation_replay_limits": {
+    "pixel_disagreement_fraction": 0.001,
+    "max_image_pixel_disagreement_fraction": 0.005,
+    "probability_mean_absolute_difference": 0.002,
+    "absolute_miou_difference": 0.001,
+    "max_image_miou_difference": 0.01
+  },
+  "validation_reference": "five independent outer folds per architecture",
+  "candidate": "adobe",
+  "candidate_oof_metrics": {
+    "oof_miou": 0.5580328390177366,
+    "paired_gain": 0.02687368293679486,
+    "paired_gain_99pct": [
+      0.01706071513282277,
+      0.03703008749938497
+    ],
+    "fold_miou": [
+      0.565407890956322,
+      0.5561343131213153,
+      0.563829549628729,
+      0.5398966286338966,
+      0.5648958127484202
+    ],
+    "fold_gain": [
+      0.03649961204191333,
+      0.026409642503005655,
+      0.020354363352533992,
+      0.01889960279082703,
+      0.0322051939956943
+    ],
+    "methods": {
+      "pixelseal": 0.5046303304325006,
+      "trustmark": 0.569199509811089,
+      "stegastamp": 0.6002686768096203
+    }
+  },
+  "components": [
+    {
+      "architecture": "adobe",
+      "fold": 0,
+      "method": "pixelseal",
+      "selection": {
+        "threshold": 0.8,
+        "miou": 0.5097976508089138,
+        "epoch": 55
+      },
+      "checkpoint_sha256": "e0364c6df9595d3f4f337d12562a4388e7dccbb6f803e982a07c7131b757650d",
+      "validation_replay": {
+        "checked_images": 34,
+        "exact_images": 34,
+        "pixel_disagreement_fraction": 0.0,
+        "max_image_pixel_disagreement_fraction": 0.0,
+        "probability_mean_absolute_difference": 0.0,
+        "probability_max_absolute_difference": 0.0,
+        "reference_miou": 0.5188830550039921,
+        "recomputed_miou": 0.5188830550039921,
+        "absolute_miou_difference": 0.0,
+        "max_image_miou_difference": 0.0
+      },
+      "fit_miou": 0.5595471505730146,
+      "outer_miou": 0.5188830550039921,
+      "fit_minus_outer_miou": 0.04066409556902251
+    },
+    {
+      "architecture": "adobe",
+      "fold": 0,
+      "method": "trustmark",
+      "selection": {
+        "threshold": 0.6000000000000001,
+        "miou": 0.5800261417547242,
+        "epoch": 75
+      },
+      "checkpoint_sha256": "c40a11ff0e044b0d33bde880c764c84a008030f3e4ef4543d6cdabedd96661b2",
+      "validation_replay": {
+        "checked_images": 34,
+        "exact_images": 34,
+        "pixel_disagreement_fraction": 0.0,
+        "max_image_pixel_disagreement_fraction": 0.0,
+        "probability_mean_absolute_difference": 0.0,
+        "probability_max_absolute_difference": 0.0,
+        "reference_miou": 0.5638727297446593,
+        "recomputed_miou": 0.5638727297446593,
+        "absolute_miou_difference": 0.0,
+        "max_image_miou_difference": 0.0
+      },
+      "fit_miou": 0.6663330548499365,
+      "outer_miou": 0.5638727297446593,
+      "fit_minus_outer_miou": 0.10246032510527725
+    },
+    {
+      "architecture": "adobe",
+      "fold": 0,
+      "method": "stegastamp",
+      "selection": {
+        "threshold": 0.35000000000000003,
+        "miou": 0.6040093869477244,
+        "epoch": 70
+      },
+      "checkpoint_sha256": "f73a14172bb0164aa1981526258d2acf67b8c94fc3de455117c4f52b0f0a5772",
+      "validation_replay": {
+        "checked_images": 34,
+        "exact_images": 34,
+        "pixel_disagreement_fraction": 0.0,
+        "max_image_pixel_disagreement_fraction": 0.0,
+        "probability_mean_absolute_difference": 0.0,
+        "probability_max_absolute_difference": 0.0,
+        "reference_miou": 0.6134678881203147,
+        "recomputed_miou": 0.6134678881203147,
+        "absolute_miou_difference": 0.0,
+        "max_image_miou_difference": 0.0
+      },
+      "fit_miou": 0.6983269888270114,
+      "outer_miou": 0.6134678881203147,
+      "fit_minus_outer_miou": 0.08485910070669667
+    },
+    {
+      "architecture": "adobe",
+      "fold": 1,
+      "method": "pixelseal",
+      "selection": {
+        "threshold": 0.30000000000000004,
+        "miou": 0.5062628818618766,
+        "epoch": 35
+      },
+      "checkpoint_sha256": "93af6e7c79adad76c6efa9e190f21ccadadf54575e446a0b90bbc91772f3b13a",
+      "validation_replay": {
+        "checked_images": 34,
+        "exact_images": 34,
+        "pixel_disagreement_fraction": 0.0,
+        "max_image_pixel_disagreement_fraction": 0.0,
+        "probability_mean_absolute_difference": 0.0,
+        "probability_max_absolute_difference": 0.0,
+        "reference_miou": 0.497966047173916,
+        "recomputed_miou": 0.497966047173916,
+        "absolute_miou_difference": 0.0,
+        "max_image_miou_difference": 0.0
+      },
+      "fit_miou": 0.5542823621462332,
+      "outer_miou": 0.497966047173916,
+      "fit_minus_outer_miou": 0.05631631497231715
+    },
+    {
+      "architecture": "adobe",
+      "fold": 1,
+      "method": "trustmark",
+      "selection": {
+        "threshold": 0.7500000000000002,
+        "miou": 0.6011275738825034,
+        "epoch": 45
+      },
+      "checkpoint_sha256": "caa79c64ef1d27ec7fe87ae850c57c28a3fddd4e73aa1e4a4ac53d07a4126b1f",
+      "validation_replay": {
+        "checked_images": 34,
+        "exact_images": 34,
+        "pixel_disagreement_fraction": 0.0,
+        "max_image_pixel_disagreement_fraction": 0.0,
+        "probability_mean_absolute_difference": 0.0,
+        "probability_max_absolute_difference": 0.0,
+        "reference_miou": 0.5782730177118588,
+        "recomputed_miou": 0.5782730177118588,
+        "absolute_miou_difference": 0.0,
+        "max_image_miou_difference": 0.0
+      },
+      "fit_miou": 0.599471836282754,
+      "outer_miou": 0.5782730177118588,
+      "fit_minus_outer_miou": 0.021198818570895228
+    },
+    {
+      "architecture": "adobe",
+      "fold": 1,
+      "method": "stegastamp",
+      "selection": {
+        "threshold": 0.55,
+        "miou": 0.6344436442985211,
+        "epoch": 115
+      },
+      "checkpoint_sha256": "cc67fb195ceea804c1c31bb15b971de0ec784ce70dad3b84a2c3db0d5a599146",
+      "validation_replay": {
+        "checked_images": 34,
+        "exact_images": 34,
+        "pixel_disagreement_fraction": 0.0,
+        "max_image_pixel_disagreement_fraction": 0.0,
+        "probability_mean_absolute_difference": 0.0,
+        "probability_max_absolute_difference": 0.0,
+        "reference_miou": 0.5921638744781716,
+        "recomputed_miou": 0.5921638744781716,
+        "absolute_miou_difference": 0.0,
+        "max_image_miou_difference": 0.0
+      },
+      "fit_miou": 0.7428020379448599,
+      "outer_miou": 0.5921638744781716,
+      "fit_minus_outer_miou": 0.15063816346668824
+    },
+    {
+      "architecture": "adobe",
+      "fold": 2,
+      "method": "pixelseal",
+      "selection": {
+        "threshold": 0.7500000000000002,
+        "miou": 0.5307838969550092,
+        "epoch": 80
+      },
+      "checkpoint_sha256": "88454da2fefa539eec6f4fe9d0ea6881d037704c5fad80531250f5cfb13949e1",
+      "validation_replay": {
+        "checked_images": 34,
+        "exact_images": 34,
+        "pixel_disagreement_fraction": 0.0,
+        "max_image_pixel_disagreement_fraction": 0.0,
+        "probability_mean_absolute_difference": 0.0,
+        "probability_max_absolute_difference": 0.0,
+        "reference_miou": 0.5004586312932243,
+        "recomputed_miou": 0.5004586312932243,
+        "absolute_miou_difference": 0.0,
+        "max_image_miou_difference": 0.0
+      },
+      "fit_miou": 0.5876611150314535,
+      "outer_miou": 0.5004586312932243,
+      "fit_minus_outer_miou": 0.08720248373822914
+    },
+    {
+      "architecture": "adobe",
+      "fold": 2,
+      "method": "trustmark",
+      "selection": {
+        "threshold": 0.8,
+        "miou": 0.6122420980166157,
+        "epoch": 50
+      },
+      "checkpoint_sha256": "32171df1c7d3ac1d3e6ca58b61bb18147c18763b2a00a485521b23334077b661",
+      "validation_replay": {
+        "checked_images": 34,
+        "exact_images": 34,
+        "pixel_disagreement_fraction": 0.0,
+        "max_image_pixel_disagreement_fraction": 0.0,
+        "probability_mean_absolute_difference": 0.0,
+        "probability_max_absolute_difference": 0.0,
+        "reference_miou": 0.5699099843120422,
+        "recomputed_miou": 0.5699099843120422,
+        "absolute_miou_difference": 0.0,
+        "max_image_miou_difference": 0.0
+      },
+      "fit_miou": 0.6138717841114036,
+      "outer_miou": 0.5699099843120422,
+      "fit_minus_outer_miou": 0.043961799799361434
+    },
+    {
+      "architecture": "adobe",
+      "fold": 2,
+      "method": "stegastamp",
+      "selection": {
+        "threshold": 0.45000000000000007,
+        "miou": 0.6516479026636427,
+        "epoch": 120
+      },
+      "checkpoint_sha256": "ea6f4300fdab66921a2571e38f470d550fdaa86f901dcc63ed4c9b5ab9f937c0",
+      "validation_replay": {
+        "checked_images": 34,
+        "exact_images": 34,
+        "pixel_disagreement_fraction": 0.0,
+        "max_image_pixel_disagreement_fraction": 0.0,
+        "probability_mean_absolute_difference": 0.0,
+        "probability_max_absolute_difference": 0.0,
+        "reference_miou": 0.6211200332809206,
+        "recomputed_miou": 0.6211200332809206,
+        "absolute_miou_difference": 0.0,
+        "max_image_miou_difference": 0.0
+      },
+      "fit_miou": 0.7320674428599693,
+      "outer_miou": 0.6211200332809206,
+      "fit_minus_outer_miou": 0.1109474095790487
+    },
+    {
+      "architecture": "adobe",
+      "fold": 3,
+      "method": "pixelseal",
+      "selection": {
+        "threshold": 0.6500000000000001,
+        "miou": 0.5001665747748059,
+        "epoch": 25
+      },
+      "checkpoint_sha256": "75e83df6f62e47b09e050b39d94e99b5b49d1038f81b840d28cd7fdf1fbd80a0",
+      "validation_replay": {
+        "checked_images": 34,
+        "exact_images": 34,
+        "pixel_disagreement_fraction": 0.0,
+        "max_image_pixel_disagreement_fraction": 0.0,
+        "probability_mean_absolute_difference": 0.0,
+        "probability_max_absolute_difference": 0.0,
+        "reference_miou": 0.4914766184049423,
+        "recomputed_miou": 0.4914766184049423,
+        "absolute_miou_difference": 0.0,
+        "max_image_miou_difference": 0.0
+      },
+      "fit_miou": 0.5359333632349236,
+      "outer_miou": 0.4914766184049423,
+      "fit_minus_outer_miou": 0.0444567448299813
+    },
+    {
+      "architecture": "adobe",
+      "fold": 3,
+      "method": "trustmark",
+      "selection": {
+        "threshold": 0.6000000000000001,
+        "miou": 0.5676083427364185,
+        "epoch": 80
+      },
+      "checkpoint_sha256": "62247629d7bcd8b02ea00f8ed2030c1e2401838d070e335e74b8eff4455cff11",
+      "validation_replay": {
+        "checked_images": 34,
+        "exact_images": 34,
+        "pixel_disagreement_fraction": 0.0,
+        "max_image_pixel_disagreement_fraction": 0.0,
+        "probability_mean_absolute_difference": 0.0,
+        "probability_max_absolute_difference": 0.0,
+        "reference_miou": 0.5501885313275514,
+        "recomputed_miou": 0.5501885313275514,
+        "absolute_miou_difference": 0.0,
+        "max_image_miou_difference": 0.0
+      },
+      "fit_miou": 0.6724161690205732,
+      "outer_miou": 0.5501885313275514,
+      "fit_minus_outer_miou": 0.1222276376930218
+    },
+    {
+      "architecture": "adobe",
+      "fold": 3,
+      "method": "stegastamp",
+      "selection": {
+        "threshold": 0.5,
+        "miou": 0.5926682217220554,
+        "epoch": 65
+      },
+      "checkpoint_sha256": "fd9690fe0511b58e0c1e075f65c77c2f3a7bc2ab0f461e0cb57e6d6aa5b837a5",
+      "validation_replay": {
+        "checked_images": 34,
+        "exact_images": 34,
+        "pixel_disagreement_fraction": 0.0,
+        "max_image_pixel_disagreement_fraction": 0.0,
+        "probability_mean_absolute_difference": 0.0,
+        "probability_max_absolute_difference": 0.0,
+        "reference_miou": 0.5780247361691961,
+        "recomputed_miou": 0.5780247361691961,
+        "absolute_miou_difference": 0.0,
+        "max_image_miou_difference": 0.0
+      },
+      "fit_miou": 0.6932596582567015,
+      "outer_miou": 0.5780247361691961,
+      "fit_minus_outer_miou": 0.11523492208750541
+    },
+    {
+      "architecture": "adobe",
+      "fold": 4,
+      "method": "pixelseal",
+      "selection": {
+        "threshold": 0.7500000000000002,
+        "miou": 0.5022086336185837,
+        "epoch": 55
+      },
+      "checkpoint_sha256": "bf90b6d654d00ca3d55e93812cd8df74dbfd235eb1ba95990255a0ab6e0e472a",
+      "validation_replay": {
+        "checked_images": 34,
+        "exact_images": 34,
+        "pixel_disagreement_fraction": 0.0,
+        "max_image_pixel_disagreement_fraction": 0.0,
+        "probability_mean_absolute_difference": 0.0,
+        "probability_max_absolute_difference": 0.0,
+        "reference_miou": 0.5143673002864285,
+        "recomputed_miou": 0.5143673002864285,
+        "absolute_miou_difference": 0.0,
+        "max_image_miou_difference": 0.0
+      },
+      "fit_miou": 0.5585276515968521,
+      "outer_miou": 0.5143673002864285,
+      "fit_minus_outer_miou": 0.04416035131042362
+    },
+    {
+      "architecture": "adobe",
+      "fold": 4,
+      "method": "trustmark",
+      "selection": {
+        "threshold": 0.5,
+        "miou": 0.5873141475693581,
+        "epoch": 50
+      },
+      "checkpoint_sha256": "b702ef16fa3838ed5dfb4569c1f24b02bc96444b29db8783cb30565c3bd6487a",
+      "validation_replay": {
+        "checked_images": 34,
+        "exact_images": 34,
+        "pixel_disagreement_fraction": 0.0,
+        "max_image_pixel_disagreement_fraction": 0.0,
+        "probability_mean_absolute_difference": 0.0,
+        "probability_max_absolute_difference": 0.0,
+        "reference_miou": 0.5837532859593334,
+        "recomputed_miou": 0.5837532859593334,
+        "absolute_miou_difference": 0.0,
+        "max_image_miou_difference": 0.0
+      },
+      "fit_miou": 0.6152393188762263,
+      "outer_miou": 0.5837532859593334,
+      "fit_minus_outer_miou": 0.03148603291689289
+    },
+    {
+      "architecture": "adobe",
+      "fold": 4,
+      "method": "stegastamp",
+      "selection": {
+        "threshold": 0.4,
+        "miou": 0.6083364380044408,
+        "epoch": 75
+      },
+      "checkpoint_sha256": "a8e145fbd40eadeab130b0a18368bc8b588390bd439502cdbf252350aea82e45",
+      "validation_replay": {
+        "checked_images": 34,
+        "exact_images": 34,
+        "pixel_disagreement_fraction": 0.0,
+        "max_image_pixel_disagreement_fraction": 0.0,
+        "probability_mean_absolute_difference": 0.0,
+        "probability_max_absolute_difference": 0.0,
+        "reference_miou": 0.5965668519994984,
+        "recomputed_miou": 0.5965668519994984,
+        "absolute_miou_difference": 0.0,
+        "max_image_miou_difference": 0.0
+      },
+      "fit_miou": 0.7039518701802175,
+      "outer_miou": 0.5965668519994984,
+      "fit_minus_outer_miou": 0.1073850181807191
+    }
+  ],
+  "ensemble_rule": "Equal mean of threshold-calibrated probabilities over five folds and selected architecture(s), threshold 0.5.",
+  "evaluation_caveat": "OOF metric evaluates held-out constituent models, not the final multi-fold test ensemble. Architectures explored before CV.",
+  "thresholds_refitted": false,
+  "comparison_sha256": "f2a3e02ff173f4f5dfa7f290d7a972e93692ba2ca94449038e0cc10f06e3ca30",
+  "test_metadata_sha256": "823f107253863479f943b769c4d9d421f16334517e010455d883eab489795cc1",
+  "export_script_sha256": "fcdd2d84edc4cd2af42eca124bc258a0c1f274c26e7dd3094a64cf4b9472fe10",
+  "slurm_job_id": "15902504",
+  "uploaded": false,
+  "adobe_provenance": {
+    "source_commit": "4c60b9fdb4125fca3001f0803e6890a6b55371ac",
+    "files": {
+      "trustmark_bbox_Q.ckpt": {
+        "url": "https://cai-watermark.adobe.net/watermarking/trustmark-models/trustmark_bbox_Q.ckpt",
+        "md5": "9d15428a33e15140ea16aa378416d304",
+        "sha256": "7e1da5667a4da070573d71bbf5a03d586f8836397bbcdf2c2044865ec37df0a5",
+        "bytes": 82933264
+      },
+      "trustmark_bbox_Q.yaml": {
+        "url": "https://cai-watermark.adobe.net/watermarking/trustmark-models/trustmark_bbox_Q.yaml",
+        "md5": "749b0d62106f8f6648e6f781c3143105",
+        "sha256": "ece16973942447c68c0ac418ba87147f80c0946d5cd794b5451a95d9d848da0b",
+        "bytes": 2154
+      }
+    }
+  },
+  "learned_extension": {
+    "candidate": "adobe",
+    "declared_on": "2026-11-21",
+    "objective": "Develop a learned pixel segmentation extension of Adobe TrustMark, without copying box predictions or coding image-specific rules.",
+    "source_commit": "4c60b9fdb4125fca3001f0803e6890a6b55371ac",
+    "source_url": "https://github.com/adobe/trustmark/blob/4c60b9fdb4125fca3001f0803e6890a6b55371ac/python/trustmark/yolo_wo_decoder_multibox.py",
+    "initialization": "Official trustmark_bbox_Q.ckpt ResNet50 and feature pyramid, loaded strictly with checksum verification.",
+    "learned_extension": "Fine-tune the feature pyramid and train new multiscale projections, an image-residual branch and a dense 128x128 mask head. Frozen ResNet and batch-norm statistics limit the number of adapted parameters.",
+    "input": "RGB image, provided-decoder message agreement maps, known watermark method; no image identifier or test label enters the model.",
+    "excluded": "No Adobe output boxes, fixed rectangle blend, spatial mask templates, per-image rules or public-leaderboard-driven fitting.",
+    "epochs": 120,
+    "head_learning_rate": 0.002,
+    "feature_pyramid_learning_rate": 5e-05,
+    "weight_decay": 0.0001,
+    "loss": "Binary cross entropy plus mean foreground/background soft Dice loss",
+    "augmentation": "Joint random right-angle rotations and horizontal reflection of image, guidance and training mask",
+    "validation": "Same five folds and seeds as the incumbent: each has 324 fit, 84 inner tuning and 102 outer validation images. Checkpoint and threshold decisions use inner tuning only.",
+    "promotion": "Compare against cv_pretrained_v1. Require mean OOF gain >= 0.002, positive gain in every fold, and paired conditional bootstrap 99% lower bound > 0.",
+    "limitations": "Architecture development reuses this small labeled dataset. OOF evaluation is a development check, not an untouched final test; hidden organizer evaluation remains independent."
+  },
+  "adobe_segmenter_sha256": "f6ea5824d0cc9fb1abf1cdc215ff9548b0b6464a924e3dc35d8dc61eb7b6031b"
+}

@@ -1,0 +1,93 @@
+{
+  "train_total": 510,
+  "test_total": 1020,
+  "calibration_images": 408,
+  "validation_images": 102,
+  "train_methods": {
+    "pixelseal": 170,
+    "stegastamp": 170,
+    "trustmark": 170
+  },
+  "test_methods": {
+    "trustmark": 340,
+    "pixelseal": 340,
+    "stegastamp": 340
+  },
+  "metadata_fields_train": [
+    "full_watermark",
+    "image_name",
+    "message",
+    "method"
+  ],
+  "metadata_fields_test": [
+    "image_name",
+    "message",
+    "method"
+  ],
+  "exact_duplicate_pairs": 0,
+  "near_duplicate_pairs": 0,
+  "groups": 510,
+  "mask_downsampling_matches": 510,
+  "strata": [
+    {
+      "method": "pixelseal",
+      "full_watermark": false,
+      "total": 85,
+      "train": 68,
+      "validation": 17
+    },
+    {
+      "method": "pixelseal",
+      "full_watermark": true,
+      "total": 85,
+      "train": 68,
+      "validation": 17
+    },
+    {
+      "method": "stegastamp",
+      "full_watermark": false,
+      "total": 85,
+      "train": 68,
+      "validation": 17
+    },
+    {
+      "method": "stegastamp",
+      "full_watermark": true,
+      "total": 85,
+      "train": 68,
+      "validation": 17
+    },
+    {
+      "method": "trustmark",
+      "full_watermark": false,
+      "total": 85,
+      "train": 68,
+      "validation": 17
+    },
+    {
+      "method": "trustmark",
+      "full_watermark": true,
+      "total": 85,
+      "train": 68,
+      "validation": 17
+    }
+  ],
+  "watermarked_area_by_method": {
+    "pixelseal": {
+      "min": 0.0032958984375,
+      "median": 0.4775390625,
+      "max": 0.9970703125
+    },
+    "trustmark": {
+      "min": 0.00384521484375,
+      "median": 0.471099853515625,
+      "max": 0.99652099609375
+    },
+    "stegastamp": {
+      "min": 0.00384521484375,
+      "median": 0.501953125,
+      "max": 0.996826171875
+    }
+  },
+  "validation_caveat": "No source-image identifiers supplied; similar source images may escape this heuristic."
+}

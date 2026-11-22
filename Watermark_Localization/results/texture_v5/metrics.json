@@ -1,0 +1,29 @@
+{
+  "methods": {
+    "pixelseal": {
+      "inner_selection": {
+        "miou": 0.306096784576228,
+        "threshold": 0.5,
+        "iterations": 100
+      },
+      "validation_miou": 0.3025863559821344
+    },
+    "trustmark": {
+      "inner_selection": {
+        "miou": 0.34461825119737943,
+        "threshold": 0.5,
+        "iterations": 600
+      },
+      "validation_miou": 0.3379378998392996
+    },
+    "stegastamp": {
+      "inner_selection": {
+        "miou": 0.40491775727984847,
+        "threshold": 0.55,
+        "iterations": 600
+      },
+      "validation_miou": 0.39269679125708823
+    }
+  },
+  "validation_miou": 0.3444070156928407
+}

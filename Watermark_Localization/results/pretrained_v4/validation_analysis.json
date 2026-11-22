@@ -1,0 +1,45 @@
+{
+  "development_miou": 0.5419691818145784,
+  "baseline_miou": 0.42147506656998057,
+  "paired_gain": 0.12049411524459785,
+  "paired_bootstrap_95pct": [
+    0.08985513304375438,
+    0.15199675719432937
+  ],
+  "images_improved": 74,
+  "images_worse": 28,
+  "uniform_predictions": 1,
+  "caveat": "Exploratory reused split; interval does not account for architecture selection.",
+  "strata": {
+    "('pixelseal', False)": {
+      "n": 17,
+      "miou": 0.532002381467829,
+      "baseline": 0.49058186590061226
+    },
+    "('pixelseal', True)": {
+      "n": 17,
+      "miou": 0.4865625079750304,
+      "baseline": 0.4750147747686132
+    },
+    "('trustmark', False)": {
+      "n": 17,
+      "miou": 0.5499521205266735,
+      "baseline": 0.46776684513695743
+    },
+    "('trustmark', True)": {
+      "n": 17,
+      "miou": 0.512249288442856,
+      "baseline": 0.4779086674939997
+    },
+    "('stegastamp', False)": {
+      "n": 17,
+      "miou": 0.5987929390909678,
+      "baseline": 0.3925951680023283
+    },
+    "('stegastamp', True)": {
+      "n": 17,
+      "miou": 0.5722558533841134,
+      "baseline": 0.22498307811737225
+    }
+  }
+}

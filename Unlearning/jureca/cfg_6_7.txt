@@ -1,0 +1,8 @@
+--jit 0.5 --opt sgd --lr 0.01 --epochs 1 --blocks 12 --w_retain 0 --out output/sub7_0.pt
+--jit 0.5 --opt sgd --lr 0.01 --epochs 3 --blocks 12 --w_retain 0 --out output/sub7_1.pt
+--jit 0.5 --opt sgd --lr 0.03 --epochs 1 --blocks 12 --w_retain 0 --out output/sub7_2.pt
+--jit 1.0 --opt sgd --lr 0.01 --epochs 1 --blocks 12 --w_retain 0 --out output/sub7_3.pt
+--strong 0.08 --tf 1 --sharpen 2 --w_retain 1 --lr 3e-4 --blocks 6 --epochs 8 --out output/sub6_0.pt
+--strong 0.08 --tf 1 --sharpen 3 --w_retain 1 --lr 3e-4 --blocks 6 --epochs 8 --out output/sub6_1.pt
+--strong 0.05 --tf 1 --sharpen 2 --w_retain 1 --lr 3e-4 --blocks 6 --epochs 8 --out output/sub6_2.pt
+--strong 0.05 --tf 1 --sharpen 3 --w_retain 1 --lr 3e-4 --blocks 6 --epochs 8 --out output/sub6_3.pt

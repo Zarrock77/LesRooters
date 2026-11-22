@@ -1,0 +1,56 @@
+{
+  "artifact": "lesrooters_watermark_baseline_v1.pt",
+  "sha256": "25a6e4801b7955833abf426bd80fa60e4b95ca7987eddae8bc56317d9ff878b3",
+  "bytes": 16734888,
+  "task_id": "34-watermark-localisation-image",
+  "images": 1020,
+  "shape": [
+    1020,
+    128,
+    128
+  ],
+  "dtype": "torch.bool",
+  "binary": true,
+  "unique_names_match_test_metadata": true,
+  "validation_predictions_reproduced_exactly": 102,
+  "selection": {
+    "pixelseal": {
+      "method": "message_bit_agreement",
+      "threshold": 0.69
+    },
+    "trustmark": {
+      "method": "message_soft_agreement",
+      "threshold": 0.5599999999999999
+    },
+    "stegastamp": {
+      "method": "train_spatial_prior",
+      "threshold": 0.49999999999999994
+    }
+  },
+  "thresholds_refitted": false,
+  "metrics_sha256": "4421345909ec50ff90cb963e1d01f9f6e8c7a45ee424cf9a6ad47126bf4f9ddc",
+  "split_sha256": "2db38a6569363cb10acca23b25a9bba669b19df8733177b4b61587b1ade8828e",
+  "test_metadata_sha256": "823f107253863479f943b769c4d9d421f16334517e010455d883eab489795cc1",
+  "export_script_sha256": "8626fab1f1155e961c9b590addc4e68363875705a851c165b6cdb186311f25e1",
+  "baseline_script_sha256": "6081dad811ea68a6f5073975fcaba5329b3ceea4a0a8f8da029d86be7fbf020b",
+  "slurm_job_id": "15901708",
+  "gpu": "NVIDIA A100-SXM4-40GB",
+  "prediction_summary": {
+    "pixelseal": {
+      "images": 340,
+      "mean_watermarked_fraction": 0.4934523638556985,
+      "uniform_masks": 262
+    },
+    "trustmark": {
+      "images": 340,
+      "mean_watermarked_fraction": 0.4437744140625,
+      "uniform_masks": 114
+    },
+    "stegastamp": {
+      "images": 340,
+      "mean_watermarked_fraction": 0.36346435546875,
+      "uniform_masks": 0
+    }
+  },
+  "uploaded": false
+}

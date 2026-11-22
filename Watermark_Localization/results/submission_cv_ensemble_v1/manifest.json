@@ -1,0 +1,455 @@
+{
+  "artifact": "lesrooters_watermark_cv_ensemble_v1.pt",
+  "sha256": "2b83da20675e88d17af941f66a2b0cfc1d4fb3cc0571fa94ceede417287a3a8a",
+  "bytes": 16734888,
+  "task_id": "34-watermark-localisation-image",
+  "images": 1020,
+  "shape": [
+    1020,
+    128,
+    128
+  ],
+  "dtype": "torch.bool",
+  "binary": true,
+  "unique_names_match_test_metadata": true,
+  "validation_expected_predictions": 510,
+  "validation_predictions_reproduced_exactly": 106,
+  "validation_predictions_checked": 510,
+  "validation_replay_mode": "bounded_gpu_numerics",
+  "validation_replay_limits": {
+    "pixel_disagreement_fraction": 0.001,
+    "max_image_pixel_disagreement_fraction": 0.005,
+    "probability_mean_absolute_difference": 0.002,
+    "absolute_miou_difference": 0.001,
+    "max_image_miou_difference": 0.01
+  },
+  "validation_reference": "five independent outer folds per architecture",
+  "candidate": "pretrained",
+  "candidate_oof_metrics": {
+    "oof_miou": 0.5311591560809418,
+    "paired_gain": 0.12019363408330304,
+    "paired_gain_95pct": [
+      0.10654266415458852,
+      0.13407015865420444
+    ],
+    "fold_miou": [
+      0.5289082789144086,
+      0.5297246706183099,
+      0.5434751862761951,
+      0.5209970258430696,
+      0.5326906187527258
+    ],
+    "fold_gain": [
+      0.12168593137233476,
+      0.11650453234263594,
+      0.13016556992818695,
+      0.10756038553829417,
+      0.12505175123506337
+    ],
+    "methods": {
+      "pixelseal": 0.5000337891888263,
+      "trustmark": 0.5154605311501198,
+      "stegastamp": 0.5779831479038791
+    }
+  },
+  "components": [
+    {
+      "architecture": "pretrained",
+      "fold": 0,
+      "method": "pixelseal",
+      "selection": {
+        "threshold": 0.5,
+        "miou": 0.507419777523767,
+        "epoch": 80
+      },
+      "checkpoint_sha256": "aa1f2cff10ba95e86eeb87c6ef840ebc4a7e79e08e083d6960e956b95461fdf1",
+      "validation_replay": {
+        "checked_images": 34,
+        "exact_images": 8,
+        "pixel_disagreement_fraction": 0.0003015854779411765,
+        "max_image_pixel_disagreement_fraction": 0.00103759765625,
+        "probability_mean_absolute_difference": 0.0003895648696925491,
+        "probability_max_absolute_difference": 0.05111205577850342,
+        "reference_miou": 0.5065617552576923,
+        "recomputed_miou": 0.5066141522787813,
+        "absolute_miou_difference": 5.239702108894573e-05,
+        "max_image_miou_difference": 0.0014691635888609555
+      },
+      "fit_miou": 0.6350786645802393,
+      "outer_miou": 0.5066141522787813,
+      "fit_minus_outer_miou": 0.12846451230145806
+    },
+    {
+      "architecture": "pretrained",
+      "fold": 0,
+      "method": "trustmark",
+      "selection": {
+        "threshold": 0.45000000000000007,
+        "miou": 0.5058847155601434,
+        "epoch": 20
+      },
+      "checkpoint_sha256": "53fe215c84630864d1ecaa2769ce23264eb7f69b2b3ed4917c946113e72f9f6d",
+      "validation_replay": {
+        "checked_images": 34,
+        "exact_images": 10,
+        "pixel_disagreement_fraction": 0.00019028607536764706,
+        "max_image_pixel_disagreement_fraction": 0.00079345703125,
+        "probability_mean_absolute_difference": 0.00020916976791340858,
+        "probability_max_absolute_difference": 0.022765040397644043,
+        "reference_miou": 0.498293823358035,
+        "recomputed_miou": 0.498284161706045,
+        "absolute_miou_difference": 9.661651990011677e-06,
+        "max_image_miou_difference": 0.000897324249428344
+      },
+      "fit_miou": 0.5710959193321123,
+      "outer_miou": 0.498284161706045,
+      "fit_minus_outer_miou": 0.07281175762606734
+    },
+    {
+      "architecture": "pretrained",
+      "fold": 0,
+      "method": "stegastamp",
+      "selection": {
+        "threshold": 0.5,
+        "miou": 0.5837943330518633,
+        "epoch": 65
+      },
+      "checkpoint_sha256": "60e5952e741ddbac24ec1bd5b55ebf92c9b4723c227000edc47979dfbf06bed2",
+      "validation_replay": {
+        "checked_images": 34,
+        "exact_images": 6,
+        "pixel_disagreement_fraction": 0.00024055032169117648,
+        "max_image_pixel_disagreement_fraction": 0.0009765625,
+        "probability_mean_absolute_difference": 0.00025038656895048916,
+        "probability_max_absolute_difference": 0.0767759382724762,
+        "reference_miou": 0.5818692581274988,
+        "recomputed_miou": 0.5819843627252527,
+        "absolute_miou_difference": 0.00011510459775387893,
+        "max_image_miou_difference": 0.0022882826528630718
+      },
+      "fit_miou": 0.6986633233802371,
+      "outer_miou": 0.5819843627252527,
+      "fit_minus_outer_miou": 0.1166789606549844
+    },
+    {
+      "architecture": "pretrained",
+      "fold": 1,
+      "method": "pixelseal",
+      "selection": {
+        "threshold": 0.4,
+        "miou": 0.5269428832548776,
+        "epoch": 25
+      },
+      "checkpoint_sha256": "964b78a00c59824c991a1760619cb9b1d7cd1e139a1ae20f7dd0a94ab9be539d",
+      "validation_replay": {
+        "checked_images": 34,
+        "exact_images": 10,
+        "pixel_disagreement_fraction": 0.00016515395220588236,
+        "max_image_pixel_disagreement_fraction": 0.000732421875,
+        "probability_mean_absolute_difference": 0.00019487497047521174,
+        "probability_max_absolute_difference": 0.016689777374267578,
+        "reference_miou": 0.49564585811540074,
+        "recomputed_miou": 0.49560389896267987,
+        "absolute_miou_difference": 4.1959152720871806e-05,
+        "max_image_miou_difference": 0.0004827339279634968
+      },
+      "fit_miou": 0.5634971291332911,
+      "outer_miou": 0.49560389896267987,
+      "fit_minus_outer_miou": 0.06789323017061122
+    },
+    {
+      "architecture": "pretrained",
+      "fold": 1,
+      "method": "trustmark",
+      "selection": {
+        "threshold": 0.7000000000000002,
+        "miou": 0.5207705551547362,
+        "epoch": 70
+      },
+      "checkpoint_sha256": "57adf0649f7967f2aa14774e85565dcb59dce05925a61c685edb515b94a81fb2",
+      "validation_replay": {
+        "checked_images": 34,
+        "exact_images": 6,
+        "pixel_disagreement_fraction": 0.00038954790900735297,
+        "max_image_pixel_disagreement_fraction": 0.00177001953125,
+        "probability_mean_absolute_difference": 0.0004363241605460644,
+        "probability_max_absolute_difference": 0.03994980454444885,
+        "reference_miou": 0.5224086979111442,
+        "recomputed_miou": 0.5224017838057053,
+        "absolute_miou_difference": 6.91410543884885e-06,
+        "max_image_miou_difference": 0.0010104719854165944
+      },
+      "fit_miou": 0.6409414383509059,
+      "outer_miou": 0.5224017838057053,
+      "fit_minus_outer_miou": 0.11853965454520055
+    },
+    {
+      "architecture": "pretrained",
+      "fold": 1,
+      "method": "stegastamp",
+      "selection": {
+        "threshold": 0.45000000000000007,
+        "miou": 0.6264075351868433,
+        "epoch": 70
+      },
+      "checkpoint_sha256": "7122676f901ab33a1470ebc30aaf02b4182afbfdae0d0581e5c085ed062d7151",
+      "validation_replay": {
+        "checked_images": 34,
+        "exact_images": 2,
+        "pixel_disagreement_fraction": 0.0002082375919117647,
+        "max_image_pixel_disagreement_fraction": 0.00054931640625,
+        "probability_mean_absolute_difference": 0.0002397423959337175,
+        "probability_max_absolute_difference": 0.043616414070129395,
+        "reference_miou": 0.5711194558283844,
+        "recomputed_miou": 0.5711402707631099,
+        "absolute_miou_difference": 2.0814934725499334e-05,
+        "max_image_miou_difference": 0.001170894758819374
+      },
+      "fit_miou": 0.6944097378091442,
+      "outer_miou": 0.5711402707631099,
+      "fit_minus_outer_miou": 0.12326946704603425
+    },
+    {
+      "architecture": "pretrained",
+      "fold": 2,
+      "method": "pixelseal",
+      "selection": {
+        "threshold": 0.7500000000000002,
+        "miou": 0.5502772494313518,
+        "epoch": 105
+      },
+      "checkpoint_sha256": "deb3bb072739d11cdbfca63374ca0110a58102b99ffa616fafff27046be04eb8",
+      "validation_replay": {
+        "checked_images": 34,
+        "exact_images": 7,
+        "pixel_disagreement_fraction": 0.00023696001838235294,
+        "max_image_pixel_disagreement_fraction": 0.0010986328125,
+        "probability_mean_absolute_difference": 0.0003024711040779948,
+        "probability_max_absolute_difference": 0.10590478777885437,
+        "reference_miou": 0.5029172239022804,
+        "recomputed_miou": 0.5029624400658962,
+        "absolute_miou_difference": 4.521616361574665e-05,
+        "max_image_miou_difference": 0.0034248228118812785
+      },
+      "fit_miou": 0.6307209510807453,
+      "outer_miou": 0.5029624400658962,
+      "fit_minus_outer_miou": 0.12775851101484914
+    },
+    {
+      "architecture": "pretrained",
+      "fold": 2,
+      "method": "trustmark",
+      "selection": {
+        "threshold": 0.5,
+        "miou": 0.5229386585841486,
+        "epoch": 60
+      },
+      "checkpoint_sha256": "bb88ff3cfab18843dda2a39b7d7b3a1fa3cd9c67b12a551e0a05fce1f6335dee",
+      "validation_replay": {
+        "checked_images": 34,
+        "exact_images": 5,
+        "pixel_disagreement_fraction": 0.0003015854779411765,
+        "max_image_pixel_disagreement_fraction": 0.00115966796875,
+        "probability_mean_absolute_difference": 0.0003938309382647276,
+        "probability_max_absolute_difference": 0.04684695601463318,
+        "reference_miou": 0.5170856558755468,
+        "recomputed_miou": 0.5170966581161127,
+        "absolute_miou_difference": 1.1002240565938237e-05,
+        "max_image_miou_difference": 0.0014677053174048105
+      },
+      "fit_miou": 0.6192652646637337,
+      "outer_miou": 0.5170966581161127,
+      "fit_minus_outer_miou": 0.10216860654762094
+    },
+    {
+      "architecture": "pretrained",
+      "fold": 2,
+      "method": "stegastamp",
+      "selection": {
+        "threshold": 0.55,
+        "miou": 0.6131334549962582,
+        "epoch": 90
+      },
+      "checkpoint_sha256": "7cab908304f49a7f8d90b89323ecee18fb8dd47ff8956784eed7901813781a89",
+      "validation_replay": {
+        "checked_images": 34,
+        "exact_images": 7,
+        "pixel_disagreement_fraction": 0.00021721335018382352,
+        "max_image_pixel_disagreement_fraction": 0.0008544921875,
+        "probability_mean_absolute_difference": 0.00026471243472769856,
+        "probability_max_absolute_difference": 0.061707139015197754,
+        "reference_miou": 0.6104226790507579,
+        "recomputed_miou": 0.6104510180871905,
+        "absolute_miou_difference": 2.8339036432623033e-05,
+        "max_image_miou_difference": 0.0032482101129550633
+      },
+      "fit_miou": 0.7064812439334844,
+      "outer_miou": 0.6104510180871905,
+      "fit_minus_outer_miou": 0.09603022584629395
+    },
+    {
+      "architecture": "pretrained",
+      "fold": 3,
+      "method": "pixelseal",
+      "selection": {
+        "threshold": 0.30000000000000004,
+        "miou": 0.5130691986493124,
+        "epoch": 35
+      },
+      "checkpoint_sha256": "6d806a5de4abed39dbd159e54609c074cb6f5424f9414adec9c114c0078987e5",
+      "validation_replay": {
+        "checked_images": 34,
+        "exact_images": 10,
+        "pixel_disagreement_fraction": 0.000152587890625,
+        "max_image_pixel_disagreement_fraction": 0.00054931640625,
+        "probability_mean_absolute_difference": 0.0002218208828708157,
+        "probability_max_absolute_difference": 0.02115631103515625,
+        "reference_miou": 0.501672352055752,
+        "recomputed_miou": 0.5016270883115369,
+        "absolute_miou_difference": 4.526374421509605e-05,
+        "max_image_miou_difference": 0.0012524497429828862
+      },
+      "fit_miou": 0.567116934463675,
+      "outer_miou": 0.5016270883115369,
+      "fit_minus_outer_miou": 0.06548984615213804
+    },
+    {
+      "architecture": "pretrained",
+      "fold": 3,
+      "method": "trustmark",
+      "selection": {
+        "threshold": 0.5,
+        "miou": 0.5445135461924921,
+        "epoch": 85
+      },
+      "checkpoint_sha256": "f467ce711b25ffd883f20d59d131e40c0baec44055223ce99124845548a6079f",
+      "validation_replay": {
+        "checked_images": 34,
+        "exact_images": 3,
+        "pixel_disagreement_fraction": 0.0003698012408088235,
+        "max_image_pixel_disagreement_fraction": 0.00152587890625,
+        "probability_mean_absolute_difference": 0.0004272061923984438,
+        "probability_max_absolute_difference": 0.06261235475540161,
+        "reference_miou": 0.5081209830875997,
+        "recomputed_miou": 0.5080967387211488,
+        "absolute_miou_difference": 2.4244366450876242e-05,
+        "max_image_miou_difference": 0.0008414698070318138
+      },
+      "fit_miou": 0.6676539777647578,
+      "outer_miou": 0.5080967387211488,
+      "fit_minus_outer_miou": 0.15955723904360897
+    },
+    {
+      "architecture": "pretrained",
+      "fold": 3,
+      "method": "stegastamp",
+      "selection": {
+        "threshold": 0.4,
+        "miou": 0.5939742257539481,
+        "epoch": 115
+      },
+      "checkpoint_sha256": "873bb09783e27472bb01a1c48c808bd3cd981d63744dae0c95da3ca78604917e",
+      "validation_replay": {
+        "checked_images": 34,
+        "exact_images": 4,
+        "pixel_disagreement_fraction": 0.00033389820772058824,
+        "max_image_pixel_disagreement_fraction": 0.001220703125,
+        "probability_mean_absolute_difference": 0.0003204670501872897,
+        "probability_max_absolute_difference": 0.06081724166870117,
+        "reference_miou": 0.5531977423858571,
+        "recomputed_miou": 0.5530910170925658,
+        "absolute_miou_difference": 0.00010672529329125435,
+        "max_image_miou_difference": 0.0013805416211501997
+      },
+      "fit_miou": 0.7514736882063657,
+      "outer_miou": 0.5530910170925658,
+      "fit_minus_outer_miou": 0.19838267111379992
+    },
+    {
+      "architecture": "pretrained",
+      "fold": 4,
+      "method": "pixelseal",
+      "selection": {
+        "threshold": 0.8,
+        "miou": 0.5080972326142461,
+        "epoch": 40
+      },
+      "checkpoint_sha256": "63b4b0b2d2297f66fdc3a7b6bcabfa1c13d811eab25b0c6cbb884209093c36db",
+      "validation_replay": {
+        "checked_images": 34,
+        "exact_images": 15,
+        "pixel_disagreement_fraction": 0.00021541819852941176,
+        "max_image_pixel_disagreement_fraction": 0.00164794921875,
+        "probability_mean_absolute_difference": 0.0002102713187923655,
+        "probability_max_absolute_difference": 0.043961912393569946,
+        "reference_miou": 0.4933717566130062,
+        "recomputed_miou": 0.49338891905415555,
+        "absolute_miou_difference": 1.716244114935428e-05,
+        "max_image_miou_difference": 0.001072923369109191
+      },
+      "fit_miou": 0.5365009797644591,
+      "outer_miou": 0.49338891905415555,
+      "fit_minus_outer_miou": 0.043112060710303546
+    },
+    {
+      "architecture": "pretrained",
+      "fold": 4,
+      "method": "trustmark",
+      "selection": {
+        "threshold": 0.7000000000000002,
+        "miou": 0.5430448654146465,
+        "epoch": 30
+      },
+      "checkpoint_sha256": "4821b5d5b8b4b41ca87faa5201e185fe77c61659060a63c6a0b02b04e3879500",
+      "validation_replay": {
+        "checked_images": 34,
+        "exact_images": 8,
+        "pixel_disagreement_fraction": 0.00018669577205882352,
+        "max_image_pixel_disagreement_fraction": 0.00067138671875,
+        "probability_mean_absolute_difference": 0.00018433251534588635,
+        "probability_max_absolute_difference": 0.01931905746459961,
+        "reference_miou": 0.531393495518274,
+        "recomputed_miou": 0.5312840716220841,
+        "absolute_miou_difference": 0.00010942389618984194,
+        "max_image_miou_difference": 0.001238101077500553
+      },
+      "fit_miou": 0.5458535323648098,
+      "outer_miou": 0.5312840716220841,
+      "fit_minus_outer_miou": 0.014569460742725693
+    },
+    {
+      "architecture": "pretrained",
+      "fold": 4,
+      "method": "stegastamp",
+      "selection": {
+        "threshold": 0.25,
+        "miou": 0.5621964535057683,
+        "epoch": 45
+      },
+      "checkpoint_sha256": "62f13224349dcc8a2c1531007bb2b1d6aa56d70658291fc20204a87273c52054",
+      "validation_replay": {
+        "checked_images": 34,
+        "exact_images": 5,
+        "pixel_disagreement_fraction": 0.00021721335018382352,
+        "max_image_pixel_disagreement_fraction": 0.00140380859375,
+        "probability_mean_absolute_difference": 0.00024351912725251168,
+        "probability_max_absolute_difference": 0.034821271896362305,
+        "reference_miou": 0.5733066041268974,
+        "recomputed_miou": 0.5732950715772973,
+        "absolute_miou_difference": 1.1532549600068442e-05,
+        "max_image_miou_difference": 0.0008004307434766877
+      },
+      "fit_miou": 0.6555904148057361,
+      "outer_miou": 0.5732950715772973,
+      "fit_minus_outer_miou": 0.08229534322843879
+    }
+  ],
+  "ensemble_rule": "Equal mean of threshold-calibrated probabilities over five folds and selected architecture(s), threshold 0.5.",
+  "evaluation_caveat": "OOF metric evaluates held-out constituent models, not the final multi-fold test ensemble. Architectures explored before CV.",
+  "thresholds_refitted": false,
+  "comparison_sha256": "5f15dd01c8fc2902505e8f53acf53c066817dd10816eaf9d6d3465ce9fd84c84",
+  "test_metadata_sha256": "823f107253863479f943b769c4d9d421f16334517e010455d883eab489795cc1",
+  "export_script_sha256": "722e7cac4f92fad71c01588cb40aa683ca1cfd0bcea7804f0869aa5c39987dbb",
+  "slurm_job_id": "15902171",
+  "uploaded": false
+}

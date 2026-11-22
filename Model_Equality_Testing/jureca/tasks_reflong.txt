@@ -1,0 +1,2 @@
+HuggingFaceTB/SmolLM2-360M-Instruct scores/reflong_bf16.npz answers/ref_v1.jsonl answers/ref_v3_met.jsonl answers/ref_v6_long.jsonl
+HuggingFaceTB/SmolLM2-360M-Instruct scores/reflong_fp8.npz answers/ref_v1.jsonl answers/ref_v3_met.jsonl answers/ref_v6_long.jsonl

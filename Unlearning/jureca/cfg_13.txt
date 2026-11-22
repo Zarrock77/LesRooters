@@ -1,0 +1,7 @@
+--init output/sub10_0.pt --tf 1 --adv 0.25 --crop_r --smix --w_retain 1 --lr 1e-4 --blocks 6 --epochs 4 --var /p/project1/training2666/delegue1/t3gen/var_*.npz --tail 0.1 --lf 12 --out output/sub11_0.pt
+--init output/sub10_0.pt --tf 1 --adv 0.25 --crop_r --smix --w_retain 1 --lr 1e-4 --blocks 6 --epochs 4 --var /p/project1/training2666/delegue1/t3gen/var_*.npz --tail 0.1 --lf 20 --out output/sub11_1.pt
+--init output/sub10_0.pt --tf 1 --adv 0.25 --crop_r --smix --w_retain 1 --lr 1e-4 --blocks 6 --epochs 4 --var /p/project1/training2666/delegue1/t3gen/var_*.npz --tail 0.2 --lf 12 --out output/sub11_2.pt
+--init output/sub10_0.pt --tf 1 --adv 0.25 --crop_r --smix --w_retain 1 --lr 1e-4 --blocks 6 --epochs 4 --var /p/project1/training2666/delegue1/t3gen/var_*.npz --tail 0.03 --lf 25 --out output/sub11_6.pt
+--init output/sub10_0.pt --epochs 0 --var /p/project1/training2666/delegue1/t3gen/var_*.npz
+--init output/sub11_3.pt --epochs 0 --var /p/project1/training2666/delegue1/t3gen/var_*.npz
+--init output/sub11_7.pt --epochs 0 --var /p/project1/training2666/delegue1/t3gen/var_*.npz

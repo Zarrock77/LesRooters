@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.uv/
+.cache/
+
+# Data, checkpoints, outputs (too large / regenerable)
+*.pt
+*.pth
+*.npz
+*.zip
+data/
+datasets/
+output/
+outputs/
+wandb/
+
+# Secrets
+.env
+*api_key*

@@ -1,0 +1,32 @@
+{
+  "candidate": "detector",
+  "reference": "pretrained",
+  "export_recommended": false,
+  "rule": "All five fold gains positive, paired bootstrap 99% lower bound positive, mean gain >= 0.002.",
+  "caveat": "Conditional image bootstrap. Reused development data; not an untouched final test.",
+  "oof_miou": 0.5320154216746978,
+  "paired_gain": 0.0008562655937560816,
+  "paired_gain_99pct": [
+    -0.004370894260446834,
+    0.00615293656239891
+  ],
+  "fold_miou": [
+    0.5283051894712831,
+    0.5231140249876438,
+    0.5433207255644266,
+    0.5258003304848448,
+    0.5395368378652909
+  ],
+  "fold_gain": [
+    -0.0006030894431255183,
+    -0.006610645630665948,
+    -0.0001544607117684487,
+    0.004803304641775177,
+    0.006846219112565145
+  ],
+  "methods": {
+    "pixelseal": 0.4997765470516307,
+    "trustmark": 0.5170450494883452,
+    "stegastamp": 0.5792246684841179
+  }
+}

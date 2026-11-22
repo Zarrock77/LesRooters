@@ -1,0 +1,61 @@
+{
+  "candidate": "adobe",
+  "oof_miou": 0.5580328390177366,
+  "reference_oof_miou": 0.5311591560809418,
+  "improved_images": 318,
+  "worse_images": 189,
+  "unchanged_images": 3,
+  "uniform_prediction_images": 37,
+  "figure_selection": "One seeded random image per watermark/full_watermark stratum; seed 20261127; no selection by prediction quality.",
+  "use": "Descriptive diagnostics only; no fitting or submission decisions.",
+  "strata": [
+    {
+      "method": "pixelseal",
+      "full_watermark": false,
+      "images": 85,
+      "miou": 0.5042365431483081,
+      "reference_miou": 0.5020219710004551,
+      "gain": 0.0022145721478530446
+    },
+    {
+      "method": "pixelseal",
+      "full_watermark": true,
+      "images": 85,
+      "miou": 0.5050241177166931,
+      "reference_miou": 0.4980456073771976,
+      "gain": 0.00697851033949549
+    },
+    {
+      "method": "trustmark",
+      "full_watermark": false,
+      "images": 85,
+      "miou": 0.5774201515597168,
+      "reference_miou": 0.5351828825272766,
+      "gain": 0.04223726903244021
+    },
+    {
+      "method": "trustmark",
+      "full_watermark": true,
+      "images": 85,
+      "miou": 0.5609788680624611,
+      "reference_miou": 0.4957381797729632,
+      "gain": 0.065240688289498
+    },
+    {
+      "method": "stegastamp",
+      "full_watermark": false,
+      "images": 85,
+      "miou": 0.577910314845734,
+      "reference_miou": 0.554353231990758,
+      "gain": 0.023557082854976156
+    },
+    {
+      "method": "stegastamp",
+      "full_watermark": true,
+      "images": 85,
+      "miou": 0.6226270387735066,
+      "reference_miou": 0.6016130638170002,
+      "gain": 0.021013974956506254
+    }
+  ]
+}

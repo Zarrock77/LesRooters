@@ -1,0 +1,112 @@
+[
+ {
+  "label": "v1",
+  "run": "ft_a",
+  "variant": "plain",
+  "oof_miou": 0.6657099733597591,
+  "submission_id": 1800,
+  "public_score": 0.6753,
+  "sha256": "4255b91cb638e70c94a49ed03931116686545ff085478fb8eefe70e4cd9104f0",
+  "finished_at": "2026-11-21T20:38:52.160133+00:00"
+ },
+ {
+  "label": "v2",
+  "run": "ft_b",
+  "variant": "rect",
+  "oof_miou": 0.6969831464696402,
+  "submission_id": 1965,
+  "public_score": 0.7113,
+  "sha256": "e77890c37aedad867e324e81a91823d57fda836ccb3f38f3a80a78c4a1d2b408",
+  "finished_at": "2026-11-21T21:39:08.261462+00:00"
+ },
+ {
+  "label": "v3",
+  "run": "combo_c",
+  "variant": "rect",
+  "oof_miou": 0.742739309082792,
+  "submission_id": 2051,
+  "public_score": 0.752,
+  "sha256": "29d9f9fec29e036003054ad46bc52543d8f19eccbb71c7398d89563c13eb40a1",
+  "finished_at": "2026-11-21T22:10:03.995313+00:00"
+ },
+ {
+  "label": "v4",
+  "run": "combo_d",
+  "variant": "rect",
+  "oof_miou": 0.7514346347102168,
+  "submission_id": 2123,
+  "public_score": 0.7589,
+  "sha256": "fff515ff344009692f7cdabd02aff0e71ae68d3af04eb8a03344947b777e387b",
+  "finished_at": "2026-11-21T22:33:44.845461+00:00"
+ },
+ {
+  "label": "v5",
+  "run": "combo_e",
+  "variant": "rect",
+  "oof_miou": 0.7625252793268006,
+  "submission_id": 2408,
+  "public_score": 0.7694,
+  "sha256": "21774446e22edc5960e13f79de888c01a24fe88dbdb0d8f6ee482e8159188a39",
+  "finished_at": "2026-11-22T00:02:36.228039+00:00"
+ },
+ {
+  "label": "v6",
+  "run": "combo_e",
+  "variant": "sam",
+  "oof_miou": 0.7739678968373498,
+  "submission_id": 2451,
+  "public_score": 0.7769,
+  "sha256": "2b26967f3e04d44771f75889874fd968ba419f20b6d780b01f0c3cd25060f4d8",
+  "finished_at": "2026-11-22T00:14:06.639777+00:00"
+ },
+ {
+  "label": "v7",
+  "run": "combo_f",
+  "variant": "sam",
+  "oof_miou": 0.786715118685911,
+  "submission_id": 2699,
+  "public_score": 0.7845,
+  "sha256": "a7234745f7980adeb8e27416ec98edb1c46b33762e799003fb0b81adb53b19ab",
+  "finished_at": "2026-11-22T02:27:26.677737+00:00"
+ },
+ {
+  "label": "v8",
+  "run": "combo_g",
+  "variant": "sam",
+  "oof_miou": 0.78787484709843,
+  "submission_id": 2877,
+  "public_score": 0.7881,
+  "sha256": "a88750fdafc475292ee06cb0797c2a52f5476eb90bede39cf64f9abccbb9ded2",
+  "finished_at": "2026-11-22T03:22:13.885168+00:00"
+ },
+ {
+  "label": "v9",
+  "run": "combo_h",
+  "variant": "sam",
+  "oof_miou": 0.7938457327574382,
+  "submission_id": 3033,
+  "public_score": 0.791,
+  "sha256": "dfe7aa5a5318cf20beaece424356378ede395a8344223d229f3cd7a3e3545508",
+  "finished_at": "2026-11-22T04:09:38.065447+00:00"
+ },
+ {
+  "label": "v10",
+  "run": "combo_i_cal2",
+  "variant": "sam",
+  "oof_miou": 0.7966557302147581,
+  "submission_id": 3175,
+  "public_score": 0.7954,
+  "sha256": "03daf236f6d827e5f936623ea442e8dee7950f0c9cf71f7ad17a93d1a42780e7",
+  "finished_at": "2026-11-22T04:52:34.555045+00:00"
+ },
+ {
+  "label": "v11",
+  "run": "combo_j1_cal2",
+  "variant": "sam",
+  "oof_miou": 0.7998432292427291,
+  "submission_id": 3307,
+  "public_score": 0.797,
+  "sha256": "569e50a6e204b4a2751b1fd77798e3a6adbd476c52b9a4f9dec7fa869bfd0349",
+  "finished_at": "2026-11-22T05:34:32.967895+00:00"
+ }
+]

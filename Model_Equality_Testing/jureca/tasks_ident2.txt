@@ -1,0 +1,6 @@
+Qwen/Qwen2.5-3B-Instruct scores/ep_qwen25_3b.npz answers/ep_ident.jsonl answers/ep_v2_short.jsonl answers/ep_v5_probe.jsonl
+unsloth/Llama-3.2-1B-Instruct scores/ep_llama32_1b.npz answers/ep_ident.jsonl answers/ep_v2_short.jsonl answers/ep_v5_probe.jsonl
+unsloth/Llama-3.2-3B-Instruct scores/ep_llama32_3b.npz answers/ep_ident.jsonl answers/ep_v2_short.jsonl answers/ep_v5_probe.jsonl
+Qwen/Qwen2-1.5B-Instruct scores/ep_qwen2_1.5b.npz answers/ep_ident.jsonl answers/ep_v2_short.jsonl answers/ep_v5_probe.jsonl
+Qwen/Qwen2-0.5B-Instruct scores/ep_qwen2_0.5b.npz answers/ep_ident.jsonl answers/ep_v2_short.jsonl answers/ep_v5_probe.jsonl
+HuggingFaceTB/SmolLM2-360M-Instruct scores/ref_long_smol2_360m.npz answers/ref_v6_long.jsonl

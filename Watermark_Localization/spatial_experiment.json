@@ -1,0 +1,20 @@
+{
+  "name": "spatial_v1",
+  "hypothesis": "Frozen native-resolution PixelSeal spatial features retain localization evidence discarded by global bit pooling; a learned context head can exploit it alongside Adobe features.",
+  "epochs": 120,
+  "batch_size": 8,
+  "variants": 1,
+  "model": "Adobe ResNet body frozen, FPN trainable; PixelSeal ConvNeXt frozen at native 256 with four 8-channel projections; modest 32/48/64/96 context head with dropout 0.1",
+  "optimization": "Existing AdamW: FPN 5e-5, new head 0.002, weight decay 1e-4, cosine schedule; BCE plus two-class soft Dice",
+  "augmentation": "Existing joint dihedral transforms of image, guide and truth; no synthetic samples in this experiment",
+  "selection": "Checkpoint at epoch 1 and multiples of 5, threshold grid 0.2..0.8 step 0.05; per-method inner tune only",
+  "reference": "adobe, accepted submission 1337; OOF 0.5580328390177366",
+  "promotion": "All five paired fold gains positive; overall mean gain >=0.002; conditional paired bootstrap 99% lower bound >0, seed20261126 and20000resamples",
+  "public_leaderboard": "Never used for tuning, checkpoint selection or promotion gate",
+  "sources": [
+    "https://arxiv.org/html/2512.16874v1",
+    "https://arxiv.org/html/2212.10957v3",
+    "https://github.com/facebookresearch/videoseal/blob/b1bf4c0/videoseal/modules/pixel_decoder.py"
+  ],
+  "limitations": "Reused development images and unknown source identities; image bootstrap excludes architecture-selection uncertainty; no guarantee against overfitting"
+}

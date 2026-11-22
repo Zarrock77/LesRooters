@@ -1,0 +1,20 @@
+{
+  "candidate": "adobe",
+  "declared_on": "2026-11-21",
+  "objective": "Develop a learned pixel segmentation extension of Adobe TrustMark, without copying box predictions or coding image-specific rules.",
+  "source_commit": "4c60b9fdb4125fca3001f0803e6890a6b55371ac",
+  "source_url": "https://github.com/adobe/trustmark/blob/4c60b9fdb4125fca3001f0803e6890a6b55371ac/python/trustmark/yolo_wo_decoder_multibox.py",
+  "initialization": "Official trustmark_bbox_Q.ckpt ResNet50 and feature pyramid, loaded strictly with checksum verification.",
+  "learned_extension": "Fine-tune the feature pyramid and train new multiscale projections, an image-residual branch and a dense 128x128 mask head. Frozen ResNet and batch-norm statistics limit the number of adapted parameters.",
+  "input": "RGB image, provided-decoder message agreement maps, known watermark method; no image identifier or test label enters the model.",
+  "excluded": "No Adobe output boxes, fixed rectangle blend, spatial mask templates, per-image rules or public-leaderboard-driven fitting.",
+  "epochs": 120,
+  "head_learning_rate": 0.002,
+  "feature_pyramid_learning_rate": 0.00005,
+  "weight_decay": 0.0001,
+  "loss": "Binary cross entropy plus mean foreground/background soft Dice loss",
+  "augmentation": "Joint random right-angle rotations and horizontal reflection of image, guidance and training mask",
+  "validation": "Same five folds and seeds as the incumbent: each has 324 fit, 84 inner tuning and 102 outer validation images. Checkpoint and threshold decisions use inner tuning only.",
+  "promotion": "Compare against cv_pretrained_v1. Require mean OOF gain >= 0.002, positive gain in every fold, and paired conditional bootstrap 99% lower bound > 0.",
+  "limitations": "Architecture development reuses this small labeled dataset. OOF evaluation is a development check, not an untouched final test; hidden organizer evaluation remains independent."
+}

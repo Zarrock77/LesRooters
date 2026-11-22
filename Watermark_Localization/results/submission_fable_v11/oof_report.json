@@ -1,0 +1,234 @@
+{
+ "oof_miou_threshold_only": 0.7815400186550335,
+ "oof_miou": 0.7998432292427291,
+ "folds": [
+  0.7939244802232849,
+  0.7991802313220077,
+  0.8140258468036415,
+  0.787874457381911,
+  0.8042111304828009
+ ],
+ "methods": {
+  "pixelseal": 0.6957279708968175,
+  "trustmark": 0.7859038727686432,
+  "stegastamp": 0.9178978440627268
+ },
+ "full_watermark": {
+  "True": 0.7716582249719065,
+  "False": 0.8280282335135519
+ },
+ "snapping_settings_per_fold": {
+  "pixelseal/fold0": [
+   4.0,
+   [
+    1.5,
+    1.5,
+    -2.0,
+    1.0
+   ]
+  ],
+  "pixelseal/fold1": [
+   4.0,
+   [
+    2.0,
+    0.0,
+    -1.0,
+    0.0
+   ]
+  ],
+  "pixelseal/fold2": [
+   4.0,
+   [
+    2.0,
+    0.23102887983594655,
+    -2.0,
+    -1.6477952574944084
+   ]
+  ],
+  "pixelseal/fold3": [
+   4.0,
+   [
+    1.5,
+    0.0,
+    -1.5,
+    -0.8238976287472042
+   ]
+  ],
+  "pixelseal/fold4": [
+   4.0,
+   [
+    2.855214491591056,
+    -1.0094855600820267,
+    -4.875,
+    1.0
+   ]
+  ],
+  "trustmark/fold0": [
+   2.5,
+   [
+    0.0,
+    1.0,
+    3.4824273857476555,
+    4.1433280463786275
+   ]
+  ],
+  "trustmark/fold1": [
+   2.5,
+   [
+    -0.5,
+    1.0,
+    3.7426314673803063,
+    5.0
+   ]
+  ],
+  "trustmark/fold2": [
+   2.5,
+   [
+    0.0,
+    1.0,
+    3.4824273857476555,
+    4.1433280463786275
+   ]
+  ],
+  "trustmark/fold3": [
+   2.5,
+   [
+    -1.0,
+    0.0,
+    5.0,
+    7.0
+   ]
+  ],
+  "trustmark/fold4": [
+   2.5,
+   [
+    0.0,
+    1.0,
+    3.7397959183673493,
+    4.1433280463786275
+   ]
+  ],
+  "stegastamp/fold0": [
+   5.0,
+   [
+    1.0,
+    2.0,
+    -2.0,
+    -2.5
+   ]
+  ],
+  "stegastamp/fold1": [
+   5.0,
+   [
+    1.0,
+    2.0,
+    -2.0,
+    -3.0
+   ]
+  ],
+  "stegastamp/fold2": [
+   5.0,
+   [
+    1.0,
+    2.0,
+    -2.0,
+    -3.0
+   ]
+  ],
+  "stegastamp/fold3": [
+   5.0,
+   [
+    1.0,
+    2.0,
+    -2.0,
+    -2.0
+   ]
+  ],
+  "stegastamp/fold4": [
+   5.0,
+   [
+    1.0,
+    2.0,
+    -2.0,
+    -2.0
+   ]
+  ]
+ },
+ "segment_selection_settings_per_fold": {
+  "clean/pixelseal/fold0": [
+   "segments_or_blob",
+   0.7
+  ],
+  "clean/trustmark/fold0": [
+   "segments_plus_uncovered_blob",
+   0.6
+  ],
+  "clean/stegastamp/fold0": [
+   "keep",
+   0.0
+  ],
+  "clean/pixelseal/fold1": [
+   "segments_or_blob",
+   0.5
+  ],
+  "clean/trustmark/fold1": [
+   "segments_plus_uncovered_blob",
+   0.4
+  ],
+  "clean/stegastamp/fold1": [
+   "keep",
+   0.0
+  ],
+  "clean/pixelseal/fold2": [
+   "segments_or_blob",
+   0.5
+  ],
+  "clean/trustmark/fold2": [
+   "segments_plus_uncovered_blob",
+   0.4
+  ],
+  "clean/stegastamp/fold2": [
+   "keep",
+   0.0
+  ],
+  "clean/pixelseal/fold3": [
+   "segments_or_blob",
+   0.7
+  ],
+  "clean/trustmark/fold3": [
+   "segments_plus_uncovered_blob",
+   0.7
+  ],
+  "clean/stegastamp/fold3": [
+   "keep",
+   0.0
+  ],
+  "clean/pixelseal/fold4": [
+   "segments_or_blob",
+   0.6
+  ],
+  "clean/trustmark/fold4": [
+   "segments_plus_uncovered_blob",
+   0.7
+  ],
+  "clean/stegastamp/fold4": [
+   "keep",
+   0.0
+  ]
+ },
+ "reference_oof": 0.5580328390177366,
+ "paired_gain": 0.2418103902249925,
+ "paired_gain_99pct": [
+  0.22194693426798737,
+  0.26088587410343
+ ],
+ "fold_gain": [
+  0.22851658926696294,
+  0.2430459182006921,
+  0.2501962971749125,
+  0.24797782874801433,
+  0.23931531773438067
+ ],
+ "improved_images": 475,
+ "worse_images": 29
+}

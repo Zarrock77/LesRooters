@@ -1,0 +1,8 @@
+{
+  "models/pixelseal/checkpoint.pth": "0c5665cff20eb6ce1b5aaa7d91c19dafb418bfee32d02dd3344e4ed60d9d75bd",
+  "models/stegastamp/stega_stamp_logits.onnx": "e7ade660447b7dfb72df4e5dbb7d0fbaa65a783faab9a26266aa69de1864f354",
+  "models/trustmark_bbox/trustmark_bbox_Q.ckpt": "7e1da5667a4da070573d71bbf5a03d586f8836397bbcdf2c2044865ec37df0a5",
+  "release/train/metadata.json": "d27295ee487ca909eff8cd45b58c10a24f25e1e15778876c6df21690fba4a608",
+  "release/train/masks_128.npz": "6e47db01512414ee484d7527f3dfb7c8a8ef1474d84a10b512f366cecc463ea2",
+  "release/test/metadata.json": "823f107253863479f943b769c4d9d421f16334517e010455d883eab489795cc1"
+}

@@ -1,0 +1,8 @@
+--strong 0.05 --tf 1 --sharpen 20 --w_retain 1 --lr 3e-4 --blocks 6 --epochs 8 --out output/sub9_0.pt
+--strong 0.05 --tf 1 --sharpen 50 --w_retain 1 --lr 3e-4 --blocks 6 --epochs 8 --out output/sub9_1.pt
+--strong 0.08 --tf 1 --sharpen 10 --w_retain 1 --lr 3e-4 --blocks 6 --epochs 8 --out output/sub9_2.pt
+--strong 0.08 --tf 1 --sharpen 20 --w_retain 1 --lr 3e-4 --blocks 6 --epochs 8 --out output/sub9_3.pt
+--strong 0.03 --tf 1 --sharpen 10 --w_retain 1 --lr 3e-4 --blocks 6 --epochs 8 --out output/sub9_4.pt
+--strong 0.05 --tf 1 --sharpen 10 --w_retain 2 --lr 3e-4 --blocks 6 --epochs 8 --out output/sub9_5.pt
+--strong 0.05 --tf 1 --sharpen 10 --w_retain 1 --lr 3e-4 --blocks 6 --epochs 12 --out output/sub9_6.pt
+--strong 0.05 --tf 1 --sharpen 10 --w_retain 0.5 --lr 3e-4 --blocks 6 --epochs 8 --out output/sub9_7.pt

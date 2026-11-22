@@ -1,0 +1,50 @@
+{
+  "purpose": "Research-guided improvement after public submission 1210; no public-score optimization",
+  "sources": [
+    {
+      "title": "Watermark Anything with Localized Messages (ICLR 2025)",
+      "url": "https://arxiv.org/html/2411.07231v2",
+      "finding": "Local watermark presence and message recovery are spatial prediction tasks; its training couples a dedicated embedder and extractor.",
+      "application": "Useful design principles for dense guidance, but WAM weights are not a direct decoder for the three fixed hackathon embedders."
+    },
+    {
+      "title": "Mask Image Watermarking (2025)",
+      "url": "https://arxiv.org/html/2504.12739v2",
+      "finding": "Mask-guided local extraction reduces interference from irrelevant image regions. Its encoder is also part of the proposed system.",
+      "application": "Motivates testing region-aware guidance with the fixed provided watermark models, without claiming the paper's scores transfer to this dataset."
+    },
+    {
+      "title": "What Breaks Local Watermarks? (2026)",
+      "url": "https://arxiv.org/html/2609.16832v1",
+      "finding": "Distinguishes region localization from synchronization and documents TrustMark's optional region detector. Geometric changes and generative edits can strongly degrade recovery.",
+      "application": "Test the official frozen TrustMark region detector as a structural prior. Do not use benchmark labels or assume its evaluation matches the hackathon."
+    },
+    {
+      "title": "Adobe TrustMark implementation",
+      "url": "https://github.com/adobe/trustmark/blob/4c60b9fdb4125fca3001f0803e6890a6b55371ac/python/trustmark/trustmark.py",
+      "finding": "Official code includes optional bounding-box detection and verified Q-model weights.",
+      "application": "Isolated pinned source and official weights, no upgrade of the existing environment. Extract regions without hackathon labels."
+    }
+  ],
+  "bbox_trial_declared_before_results": {
+    "candidate": "bbox",
+    "status": "retired_not_for_submission",
+    "retirement_reason": "Melvyn requested a learned extension of Adobe's work, with no fixed box-to-mask blending. The box-prior experiment is retained for the research audit only; it is not a submission candidate.",
+    "competition_eligibility": {
+      "status": "allowed_as_confirmed_by_team_lead",
+      "reviewed_on": "2026-11-21",
+      "evidence": "The Watermark Localization statement provides TrustMark extractor/embedder wrappers, but does not explicitly address additional external pretrained checkpoints. The presentation and public leaderboard do not resolve this question.",
+      "distinction": "trustmark_bbox_Q.ckpt is an additional external detector, distinct from the TrustMark Q assets used by the starter-kit extractor and submission 1210. Frozen weights alone do not establish contest eligibility.",
+      "confirmation": "Melvyn, team lead, stated on 2026-11-21: 'Ok, vas y, on a le droit donc faisons ca avec Adobe'. This records the user's confirmation; no independent organizer message was obtained by the assistant.",
+      "submission_policy": "Proceed with the Adobe detector under the team lead's confirmation. Export and submit only if the predeclared held-out validation gate passes."
+    },
+    "base": "cv_pretrained_v1",
+    "methods_changed": ["trustmark"],
+    "alpha_grid": [0, 0.25, 0.5, 0.75, 1],
+    "detector_confidence_minimum": 0.5,
+    "weight_rule": "alpha times detector confidence; highest-confidence box; pixel-center rasterization; unchanged prediction when no usable box",
+    "selection": "Select alpha independently inside each original inner tuning split; no outer labels for fitting, box adjustment, threshold or weight choice",
+    "promotion": "Same strict gate: positive gains in all five folds, mean gain >= 0.002, positive conditional 99% bootstrap lower bound",
+    "limitations": "Repeated architecture selection on a small development dataset is not a pristine test. The organizer's hidden split remains independent."
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "artifact": "lesrooters_watermark_localization_v2.pt",
+  "sha256": "89fc0fda7642a2429b2b73a0a8c6f0f0e21446f0c94f292e05e61310d879df4e",
+  "bytes": 16734893,
+  "task_id": "34-watermark-localisation-image",
+  "images": 1020,
+  "shape": [
+    1020,
+    128,
+    128
+  ],
+  "dtype": "torch.bool",
+  "binary": true,
+  "unique_names_match_test_metadata": true,
+  "validation_predictions_reproduced_exactly": 102,
+  "validation_reference": "localization_v2",
+  "architecture": "residual",
+  "selection": {
+    "pixelseal": {
+      "threshold": 0.6000000000000001,
+      "miou": 0.5148396014643061,
+      "epoch": 50
+    },
+    "trustmark": {
+      "threshold": 0.6500000000000001,
+      "miou": 0.47493726357032384,
+      "epoch": 45
+    },
+    "stegastamp": {
+      "threshold": 0.2,
+      "miou": 0.4720310174894286,
+      "epoch": 25
+    }
+  },
+  "thresholds_refitted": false,
+  "checkpoint_sha256": {
+    "pixelseal": "99612cfc123e6d00b3384ac0c1e4ad3493e254d8087044c8a40ff4f073869f68",
+    "trustmark": "27a311106ee1a5df6eda8b7592b1a4d70f8c0811d6558a041e36b012c79706f0",
+    "stegastamp": "b27338b31298e302802a4b8d3ce88aa70071e8e099204f0d893dee74b54b6501"
+  },
+  "metrics_sha256": "dbd14d8ded9b183fa2b9c4a61ffadd3eea07bea0a5956302962a64e227e11b88",
+  "inner_split_sha256": "cd9eb70bbdfdd8fbb9655b74cce7c1d437583b429c8c46f3353cea60b97010ce",
+  "test_metadata_sha256": "823f107253863479f943b769c4d9d421f16334517e010455d883eab489795cc1",
+  "export_script_sha256": "56c61b88f62a1a037587815c5465ea0fa82c06857179b725515a05806ae56aab",
+  "model_script_sha256": "7189ed8d4ae36129c4adb73afc7814338b035c9fa5e5f78550e539e71b907e0f",
+  "slurm_job_id": "15901889",
+  "uploaded": false
+}

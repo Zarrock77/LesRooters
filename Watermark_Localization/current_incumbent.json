@@ -1,0 +1,11 @@
+{
+  "candidate": "adobe",
+  "validation_root": "output/cv_adobe_v1",
+  "oof_miou": 0.5580328390177366,
+  "official_submission_id": 1337,
+  "accepted_at_utc": "2026-11-21T17:31:22.339899+00:00",
+  "public_score": 0.5709486490527379,
+  "artifact_sha256": "08a04113daa96c12a12f857da5799ddc330f1a8f775af176f9efbd8aa818d539",
+  "next_comparison": "Use assess_candidate.py --reference adobe for future candidates; beating the older pretrained model alone is no longer sufficient.",
+  "public_score_use": "Receipt tracking only; never fit or select thresholds from public scores."
+}

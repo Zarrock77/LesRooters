@@ -1,0 +1,402 @@
+[
+ [
+  "t0_r0",
+  "You can use the following tools:\n- add_event(input): Create a calendar entry.\n- create_event(input): Create a calendar entry.\n- schedule_meeting(input): Create a calendar entry.\n- book_calendar_event(input): Create a calendar entry.\n\nUser request: Schedule a team sync for Thursday at 2pm.\nRespond with exactly one tool call in the form tool_name(arguments) and nothing else."
+ ],
+ [
+  "t0_r1",
+  "You can use the following tools:\n- create_event(input): Create a calendar entry.\n- schedule_meeting(input): Create a calendar entry.\n- book_calendar_event(input): Create a calendar entry.\n- add_event(input): Create a calendar entry.\n\nUser request: Schedule a team sync for Thursday at 2pm.\nRespond with exactly one tool call in the form tool_name(arguments) and nothing else."
+ ],
+ [
+  "t0_r2",
+  "You can use the following tools:\n- create_event(input): Create a calendar entry.\n- add_event(input): Create a calendar entry.\n- schedule_meeting(input): Create a calendar entry.\n- book_calendar_event(input): Create a calendar entry.\n\nUser request: Schedule a team sync for Thursday at 2pm.\nRespond with exactly one tool call in the form tool_name(arguments) and nothing else."
+ ],
+ [
+  "t0_r3",
+  "You can use the following tools:\n- schedule_meeting(input): Create a calendar entry.\n- create_event(input): Create a calendar entry.\n- book_calendar_event(input): Create a calendar entry.\n- add_event(input): Create a calendar entry.\n\nUser request: Schedule a team sync for Thursday at 2pm.\nRespond with exactly one tool call in the form tool_name(arguments) and nothing else."
+ ],
+ [
+  "t0_r4",
+  "You can use the following tools:\n- add_event(input): Create a calendar entry.\n- create_event(input): Create a calendar entry.\n- book_calendar_event(input): Create a calendar entry.\n- schedule_meeting(input): Create a calendar entry.\n\nUser request: Schedule a team sync for Thursday at 2pm.\nRespond with exactly one tool call in the form tool_name(arguments) and nothing else."
+ ],
+ [
+  "t0_r5",
+  "You can use the following tools:\n- book_calendar_event(input): Create a calendar entry.\n- schedule_meeting(input): Create a calendar entry.\n- add_event(input): Create a calendar entry.\n- create_event(input): Create a calendar entry.\n\nUser request: Schedule a team sync for Thursday at 2pm.\nRespond with exactly one tool call in the form tool_name(arguments) and nothing else."
+ ],
+ [
+  "t0_r6",
+  "You can use the following tools:\n- add_event(input): Create a calendar entry.\n- create_event(input): Create a calendar entry.\n- book_calendar_event(input): Create a calendar entry.\n- schedule_meeting(input): Create a calendar entry.\n\nUser request: Schedule a team sync for Thursday at 2pm.\nRespond with exactly one tool call in the form tool_name(arguments) and nothing else."
+ ],
+ [
+  "t0_r7",
+  "You can use the following tools:\n- book_calendar_event(input): Create a calendar entry.\n- schedule_meeting(input): Create a calendar entry.\n- add_event(input): Create a calendar entry.\n- create_event(input): Create a calendar entry.\n\nUser request: Schedule a team sync for Thursday at 2pm.\nRespond with exactly one tool call in the form tool_name(arguments) and nothing else."
+ ],
+ [
+  "t0_r8",
+  "You can use the following tools:\n- schedule_meeting(input): Create a calendar entry.\n- create_event(input): Create a calendar entry.\n- add_event(input): Create a calendar entry.\n- book_calendar_event(input): Create a calendar entry.\n\nUser request: Schedule a team sync for Thursday at 2pm.\nRespond with exactly one tool call in the form tool_name(arguments) and nothing else."
+ ],
+ [
+  "t0_r9",
+  "You can use the following tools:\n- create_event(input): Create a calendar entry.\n- book_calendar_event(input): Create a calendar entry.\n- schedule_meeting(input): Create a calendar entry.\n- add_event(input): Create a calendar entry.\n\nUser request: Schedule a team sync for Thursday at 2pm.\nRespond with exactly one tool call in the form tool_name(arguments) and nothing else."
+ ],
+ [
+  "t0_r10",
+  "You can use the following tools:\n- create_event(input): Create a calendar entry.\n- book_calendar_event(input): Create a calendar entry.\n- add_event(input): Create a calendar entry.\n- schedule_meeting(input): Create a calendar entry.\n\nUser request: Schedule a team sync for Thursday at 2pm.\nRespond with exactly one tool call in the form tool_name(arguments) and nothing else."
+ ],
+ [
+  "t0_r11",
+  "You can use the following tools:\n- create_event(input): Create a calendar entry.\n- schedule_meeting(input): Create a calendar entry.\n- add_event(input): Create a calendar entry.\n- book_calendar_event(input): Create a calendar entry.\n\nUser request: Schedule a team sync for Thursday at 2pm.\nRespond with exactly one tool call in the form tool_name(arguments) and nothing else."
+ ],
+ [
+  "t0_r12",
+  "You can use the following tools:\n- schedule_meeting(input): Create a calendar entry.\n- book_calendar_event(input): Create a calendar entry.\n- add_event(input): Create a calendar entry.\n- create_event(input): Create a calendar entry.\n\nUser request: Schedule a team sync for Thursday at 2pm.\nRespond with exactly one tool call in the form tool_name(arguments) and nothing else."
+ ],
+ [
+  "t0_r13",
+  "You can use the following tools:\n- book_calendar_event(input): Create a calendar entry.\n- schedule_meeting(input): Create a calendar entry.\n- add_event(input): Create a calendar entry.\n- create_event(input): Create a calendar entry.\n\nUser request: Schedule a team sync for Thursday at 2pm.\nRespond with exactly one tool call in the form tool_name(arguments) and nothing else."
+ ],
+ [
+  "t0_r14",
+  "You can use the following tools:\n- book_calendar_event(input): Create a calendar entry.\n- schedule_meeting(input): Create a calendar entry.\n- add_event(input): Create a calendar entry.\n- create_event(input): Create a calendar entry.\n\nUser request: Schedule a team sync for Thursday at 2pm.\nRespond with exactly one tool call in the form tool_name(arguments) and nothing else."
+ ],
+ [
+  "t0_r15",
+  "You can use the following tools:\n- book_calendar_event(input): Create a calendar entry.\n- schedule_meeting(input): Create a calendar entry.\n- create_event(input): Create a calendar entry.\n- add_event(input): Create a calendar entry.\n\nUser request: Schedule a team sync for Thursday at 2pm.\nRespond with exactly one tool call in the form tool_name(arguments) and nothing else."
+ ],
+ [
+  "t0_r16",
+  "You can use the following tools:\n- schedule_meeting(input): Create a calendar entry.\n- add_event(input): Create a calendar entry.\n- book_calendar_event(input): Create a calendar entry.\n- create_event(input): Create a calendar entry.\n\nUser request: Schedule a team sync for Thursday at 2pm.\nRespond with exactly one tool call in the form tool_name(arguments) and nothing else."
+ ],
+ [
+  "t0_r17",
+  "You can use the following tools:\n- add_event(input): Create a calendar entry.\n- book_calendar_event(input): Create a calendar entry.\n- create_event(input): Create a calendar entry.\n- schedule_meeting(input): Create a calendar entry.\n\nUser request: Schedule a team sync for Thursday at 2pm.\nRespond with exactly one tool call in the form tool_name(arguments) and nothing else."
+ ],
+ [
+  "t0_r18",
+  "You can use the following tools:\n- add_event(input): Create a calendar entry.\n- schedule_meeting(input): Create a calendar entry.\n- book_calendar_event(input): Create a calendar entry.\n- create_event(input): Create a calendar entry.\n\nUser request: Schedule a team sync for Thursday at 2pm.\nRespond with exactly one tool call in the form tool_name(arguments) and nothing else."
+ ],
+ [
+  "t0_r19",
+  "You can use the following tools:\n- add_event(input): Create a calendar entry.\n- schedule_meeting(input): Create a calendar entry.\n- create_event(input): Create a calendar entry.\n- book_calendar_event(input): Create a calendar entry.\n\nUser request: Schedule a team sync for Thursday at 2pm.\nRespond with exactly one tool call in the form tool_name(arguments) and nothing else."
+ ],
+ [
+  "t1_r0",
+  "You can use the following tools:\n- outlook_send_email(input): Send an email.\n- gmail_send_email(input): Send an email.\n- yahoo_send_message(input): Send an email.\n- smtp_send_mail(input): Send an email.\n\nUser request: Send a short greeting to alice@example.com.\nRespond with exactly one tool call in the form tool_name(arguments) and nothing else."
+ ],
+ [
+  "t1_r1",
+  "You can use the following tools:\n- outlook_send_email(input): Send an email.\n- gmail_send_email(input): Send an email.\n- yahoo_send_message(input): Send an email.\n- smtp_send_mail(input): Send an email.\n\nUser request: Send a short greeting to alice@example.com.\nRespond with exactly one tool call in the form tool_name(arguments) and nothing else."
+ ],
+ [
+  "t1_r2",
+  "You can use the following tools:\n- yahoo_send_message(input): Send an email.\n- gmail_send_email(input): Send an email.\n- outlook_send_email(input): Send an email.\n- smtp_send_mail(input): Send an email.\n\nUser request: Send a short greeting to alice@example.com.\nRespond with exactly one tool call in the form tool_name(arguments) and nothing else."
+ ],
+ [
+  "t1_r3",
+  "You can use the following tools:\n- smtp_send_mail(input): Send an email.\n- gmail_send_email(input): Send an email.\n- outlook_send_email(input): Send an email.\n- yahoo_send_message(input): Send an email.\n\nUser request: Send a short greeting to alice@example.com.\nRespond with exactly one tool call in the form tool_name(arguments) and nothing else."
+ ],
+ [
+  "t1_r4",
+  "You can use the following tools:\n- outlook_send_email(input): Send an email.\n- yahoo_send_message(input): Send an email.\n- gmail_send_email(input): Send an email.\n- smtp_send_mail(input): Send an email.\n\nUser request: Send a short greeting to alice@example.com.\nRespond with exactly one tool call in the form tool_name(arguments) and nothing else."
+ ],
+ [
+  "t1_r5",
+  "You can use the following tools:\n- smtp_send_mail(input): Send an email.\n- yahoo_send_message(input): Send an email.\n- gmail_send_email(input): Send an email.\n- outlook_send_email(input): Send an email.\n\nUser request: Send a short greeting to alice@example.com.\nRespond with exactly one tool call in the form tool_name(arguments) and nothing else."
+ ],
+ [
+  "t1_r6",
+  "You can use the following tools:\n- outlook_send_email(input): Send an email.\n- smtp_send_mail(input): Send an email.\n- gmail_send_email(input): Send an email.\n- yahoo_send_message(input): Send an email.\n\nUser request: Send a short greeting to alice@example.com.\nRespond with exactly one tool call in the form tool_name(arguments) and nothing else."
+ ],
+ [
+  "t1_r7",
+  "You can use the following tools:\n- yahoo_send_message(input): Send an email.\n- smtp_send_mail(input): Send an email.\n- gmail_send_email(input): Send an email.\n- outlook_send_email(input): Send an email.\n\nUser request: Send a short greeting to alice@example.com.\nRespond with exactly one tool call in the form tool_name(arguments) and nothing else."
+ ],
+ [
+  "t1_r8",
+  "You can use the following tools:\n- yahoo_send_message(input): Send an email.\n- outlook_send_email(input): Send an email.\n- smtp_send_mail(input): Send an email.\n- gmail_send_email(input): Send an email.\n\nUser request: Send a short greeting to alice@example.com.\nRespond with exactly one tool call in the form tool_name(arguments) and nothing else."
+ ],
+ [
+  "t1_r9",
+  "You can use the following tools:\n- outlook_send_email(input): Send an email.\n- gmail_send_email(input): Send an email.\n- yahoo_send_message(input): Send an email.\n- smtp_send_mail(input): Send an email.\n\nUser request: Send a short greeting to alice@example.com.\nRespond with exactly one tool call in the form tool_name(arguments) and nothing else."
+ ],
+ [
+  "t1_r10",
+  "You can use the following tools:\n- gmail_send_email(input): Send an email.\n- yahoo_send_message(input): Send an email.\n- smtp_send_mail(input): Send an email.\n- outlook_send_email(input): Send an email.\n\nUser request: Send a short greeting to alice@example.com.\nRespond with exactly one tool call in the form tool_name(arguments) and nothing else."
+ ],
+ [
+  "t1_r11",
+  "You can use the following tools:\n- gmail_send_email(input): Send an email.\n- yahoo_send_message(input): Send an email.\n- outlook_send_email(input): Send an email.\n- smtp_send_mail(input): Send an email.\n\nUser request: Send a short greeting to alice@example.com.\nRespond with exactly one tool call in the form tool_name(arguments) and nothing else."
+ ],
+ [
+  "t1_r12",
+  "You can use the following tools:\n- yahoo_send_message(input): Send an email.\n- outlook_send_email(input): Send an email.\n- gmail_send_email(input): Send an email.\n- smtp_send_mail(input): Send an email.\n\nUser request: Send a short greeting to alice@example.com.\nRespond with exactly one tool call in the form tool_name(arguments) and nothing else."
+ ],
+ [
+  "t1_r13",
+  "You can use the following tools:\n- yahoo_send_message(input): Send an email.\n- smtp_send_mail(input): Send an email.\n- outlook_send_email(input): Send an email.\n- gmail_send_email(input): Send an email.\n\nUser request: Send a short greeting to alice@example.com.\nRespond with exactly one tool call in the form tool_name(arguments) and nothing else."
+ ],
+ [
+  "t1_r14",
+  "You can use the following tools:\n- yahoo_send_message(input): Send an email.\n- smtp_send_mail(input): Send an email.\n- gmail_send_email(input): Send an email.\n- outlook_send_email(input): Send an email.\n\nUser request: Send a short greeting to alice@example.com.\nRespond with exactly one tool call in the form tool_name(arguments) and nothing else."
+ ],
+ [
+  "t1_r15",
+  "You can use the following tools:\n- outlook_send_email(input): Send an email.\n- yahoo_send_message(input): Send an email.\n- gmail_send_email(input): Send an email.\n- smtp_send_mail(input): Send an email.\n\nUser request: Send a short greeting to alice@example.com.\nRespond with exactly one tool call in the form tool_name(arguments) and nothing else."
+ ],
+ [
+  "t1_r16",
+  "You can use the following tools:\n- yahoo_send_message(input): Send an email.\n- outlook_send_email(input): Send an email.\n- gmail_send_email(input): Send an email.\n- smtp_send_mail(input): Send an email.\n\nUser request: Send a short greeting to alice@example.com.\nRespond with exactly one tool call in the form tool_name(arguments) and nothing else."
+ ],
+ [
+  "t1_r17",
+  "You can use the following tools:\n- outlook_send_email(input): Send an email.\n- smtp_send_mail(input): Send an email.\n- gmail_send_email(input): Send an email.\n- yahoo_send_message(input): Send an email.\n\nUser request: Send a short greeting to alice@example.com.\nRespond with exactly one tool call in the form tool_name(arguments) and nothing else."
+ ],
+ [
+  "t1_r18",
+  "You can use the following tools:\n- yahoo_send_message(input): Send an email.\n- gmail_send_email(input): Send an email.\n- smtp_send_mail(input): Send an email.\n- outlook_send_email(input): Send an email.\n\nUser request: Send a short greeting to alice@example.com.\nRespond with exactly one tool call in the form tool_name(arguments) and nothing else."
+ ],
+ [
+  "t1_r19",
+  "You can use the following tools:\n- outlook_send_email(input): Send an email.\n- yahoo_send_message(input): Send an email.\n- smtp_send_mail(input): Send an email.\n- gmail_send_email(input): Send an email.\n\nUser request: Send a short greeting to alice@example.com.\nRespond with exactly one tool call in the form tool_name(arguments) and nothing else."
+ ],
+ [
+  "t2_r0",
+  "You can use the following tools:\n- weather_lookup(input): Get weather information.\n- fetch_forecast(input): Get weather information.\n- query_climate_api(input): Get weather information.\n- get_weather(input): Get weather information.\n\nUser request: Find the current weather in Lyon.\nRespond with exactly one tool call in the form tool_name(arguments) and nothing else."
+ ],
+ [
+  "t2_r1",
+  "You can use the following tools:\n- fetch_forecast(input): Get weather information.\n- query_climate_api(input): Get weather information.\n- weather_lookup(input): Get weather information.\n- get_weather(input): Get weather information.\n\nUser request: Find the current weather in Lyon.\nRespond with exactly one tool call in the form tool_name(arguments) and nothing else."
+ ],
+ [
+  "t2_r2",
+  "You can use the following tools:\n- weather_lookup(input): Get weather information.\n- query_climate_api(input): Get weather information.\n- get_weather(input): Get weather information.\n- fetch_forecast(input): Get weather information.\n\nUser request: Find the current weather in Lyon.\nRespond with exactly one tool call in the form tool_name(arguments) and nothing else."
+ ],
+ [
+  "t2_r3",
+  "You can use the following tools:\n- weather_lookup(input): Get weather information.\n- fetch_forecast(input): Get weather information.\n- query_climate_api(input): Get weather information.\n- get_weather(input): Get weather information.\n\nUser request: Find the current weather in Lyon.\nRespond with exactly one tool call in the form tool_name(arguments) and nothing else."
+ ],
+ [
+  "t2_r4",
+  "You can use the following tools:\n- fetch_forecast(input): Get weather information.\n- query_climate_api(input): Get weather information.\n- weather_lookup(input): Get weather information.\n- get_weather(input): Get weather information.\n\nUser request: Find the current weather in Lyon.\nRespond with exactly one tool call in the form tool_name(arguments) and nothing else."
+ ],
+ [
+  "t2_r5",
+  "You can use the following tools:\n- weather_lookup(input): Get weather information.\n- query_climate_api(input): Get weather information.\n- fetch_forecast(input): Get weather information.\n- get_weather(input): Get weather information.\n\nUser request: Find the current weather in Lyon.\nRespond with exactly one tool call in the form tool_name(arguments) and nothing else."
+ ],
+ [
+  "t2_r6",
+  "You can use the following tools:\n- weather_lookup(input): Get weather information.\n- get_weather(input): Get weather information.\n- fetch_forecast(input): Get weather information.\n- query_climate_api(input): Get weather information.\n\nUser request: Find the current weather in Lyon.\nRespond with exactly one tool call in the form tool_name(arguments) and nothing else."
+ ],
+ [
+  "t2_r7",
+  "You can use the following tools:\n- weather_lookup(input): Get weather information.\n- query_climate_api(input): Get weather information.\n- get_weather(input): Get weather information.\n- fetch_forecast(input): Get weather information.\n\nUser request: Find the current weather in Lyon.\nRespond with exactly one tool call in the form tool_name(arguments) and nothing else."
+ ],
+ [
+  "t2_r8",
+  "You can use the following tools:\n- query_climate_api(input): Get weather information.\n- weather_lookup(input): Get weather information.\n- fetch_forecast(input): Get weather information.\n- get_weather(input): Get weather information.\n\nUser request: Find the current weather in Lyon.\nRespond with exactly one tool call in the form tool_name(arguments) and nothing else."
+ ],
+ [
+  "t2_r9",
+  "You can use the following tools:\n- query_climate_api(input): Get weather information.\n- get_weather(input): Get weather information.\n- weather_lookup(input): Get weather information.\n- fetch_forecast(input): Get weather information.\n\nUser request: Find the current weather in Lyon.\nRespond with exactly one tool call in the form tool_name(arguments) and nothing else."
+ ],
+ [
+  "t2_r10",
+  "You can use the following tools:\n- query_climate_api(input): Get weather information.\n- weather_lookup(input): Get weather information.\n- fetch_forecast(input): Get weather information.\n- get_weather(input): Get weather information.\n\nUser request: Find the current weather in Lyon.\nRespond with exactly one tool call in the form tool_name(arguments) and nothing else."
+ ],
+ [
+  "t2_r11",
+  "You can use the following tools:\n- weather_lookup(input): Get weather information.\n- query_climate_api(input): Get weather information.\n- fetch_forecast(input): Get weather information.\n- get_weather(input): Get weather information.\n\nUser request: Find the current weather in Lyon.\nRespond with exactly one tool call in the form tool_name(arguments) and nothing else."
+ ],
+ [
+  "t2_r12",
+  "You can use the following tools:\n- fetch_forecast(input): Get weather information.\n- weather_lookup(input): Get weather information.\n- get_weather(input): Get weather information.\n- query_climate_api(input): Get weather information.\n\nUser request: Find the current weather in Lyon.\nRespond with exactly one tool call in the form tool_name(arguments) and nothing else."
+ ],
+ [
+  "t2_r13",
+  "You can use the following tools:\n- get_weather(input): Get weather information.\n- weather_lookup(input): Get weather information.\n- query_climate_api(input): Get weather information.\n- fetch_forecast(input): Get weather information.\n\nUser request: Find the current weather in Lyon.\nRespond with exactly one tool call in the form tool_name(arguments) and nothing else."
+ ],
+ [
+  "t2_r14",
+  "You can use the following tools:\n- query_climate_api(input): Get weather information.\n- get_weather(input): Get weather information.\n- fetch_forecast(input): Get weather information.\n- weather_lookup(input): Get weather information.\n\nUser request: Find the current weather in Lyon.\nRespond with exactly one tool call in the form tool_name(arguments) and nothing else."
+ ],
+ [
+  "t2_r15",
+  "You can use the following tools:\n- weather_lookup(input): Get weather information.\n- query_climate_api(input): Get weather information.\n- fetch_forecast(input): Get weather information.\n- get_weather(input): Get weather information.\n\nUser request: Find the current weather in Lyon.\nRespond with exactly one tool call in the form tool_name(arguments) and nothing else."
+ ],
+ [
+  "t2_r16",
+  "You can use the following tools:\n- get_weather(input): Get weather information.\n- fetch_forecast(input): Get weather information.\n- query_climate_api(input): Get weather information.\n- weather_lookup(input): Get weather information.\n\nUser request: Find the current weather in Lyon.\nRespond with exactly one tool call in the form tool_name(arguments) and nothing else."
+ ],
+ [
+  "t2_r17",
+  "You can use the following tools:\n- query_climate_api(input): Get weather information.\n- weather_lookup(input): Get weather information.\n- fetch_forecast(input): Get weather information.\n- get_weather(input): Get weather information.\n\nUser request: Find the current weather in Lyon.\nRespond with exactly one tool call in the form tool_name(arguments) and nothing else."
+ ],
+ [
+  "t2_r18",
+  "You can use the following tools:\n- fetch_forecast(input): Get weather information.\n- query_climate_api(input): Get weather information.\n- get_weather(input): Get weather information.\n- weather_lookup(input): Get weather information.\n\nUser request: Find the current weather in Lyon.\nRespond with exactly one tool call in the form tool_name(arguments) and nothing else."
+ ],
+ [
+  "t2_r19",
+  "You can use the following tools:\n- get_weather(input): Get weather information.\n- weather_lookup(input): Get weather information.\n- fetch_forecast(input): Get weather information.\n- query_climate_api(input): Get weather information.\n\nUser request: Find the current weather in Lyon.\nRespond with exactly one tool call in the form tool_name(arguments) and nothing else."
+ ],
+ [
+  "t3_r0",
+  "You can use the following tools:\n- create_note(input): Store a text note.\n- evernote_store(input): Store a text note.\n- save_memo(input): Store a text note.\n- notion_add_page(input): Store a text note.\n\nUser request: Save the note 'buy milk' for later.\nRespond with exactly one tool call in the form tool_name(arguments) and nothing else."
+ ],
+ [
+  "t3_r1",
+  "You can use the following tools:\n- evernote_store(input): Store a text note.\n- create_note(input): Store a text note.\n- notion_add_page(input): Store a text note.\n- save_memo(input): Store a text note.\n\nUser request: Save the note 'buy milk' for later.\nRespond with exactly one tool call in the form tool_name(arguments) and nothing else."
+ ],
+ [
+  "t3_r2",
+  "You can use the following tools:\n- save_memo(input): Store a text note.\n- create_note(input): Store a text note.\n- notion_add_page(input): Store a text note.\n- evernote_store(input): Store a text note.\n\nUser request: Save the note 'buy milk' for later.\nRespond with exactly one tool call in the form tool_name(arguments) and nothing else."
+ ],
+ [
+  "t3_r3",
+  "You can use the following tools:\n- save_memo(input): Store a text note.\n- create_note(input): Store a text note.\n- evernote_store(input): Store a text note.\n- notion_add_page(input): Store a text note.\n\nUser request: Save the note 'buy milk' for later.\nRespond with exactly one tool call in the form tool_name(arguments) and nothing else."
+ ],
+ [
+  "t3_r4",
+  "You can use the following tools:\n- save_memo(input): Store a text note.\n- evernote_store(input): Store a text note.\n- create_note(input): Store a text note.\n- notion_add_page(input): Store a text note.\n\nUser request: Save the note 'buy milk' for later.\nRespond with exactly one tool call in the form tool_name(arguments) and nothing else."
+ ],
+ [
+  "t3_r5",
+  "You can use the following tools:\n- create_note(input): Store a text note.\n- notion_add_page(input): Store a text note.\n- save_memo(input): Store a text note.\n- evernote_store(input): Store a text note.\n\nUser request: Save the note 'buy milk' for later.\nRespond with exactly one tool call in the form tool_name(arguments) and nothing else."
+ ],
+ [
+  "t3_r6",
+  "You can use the following tools:\n- save_memo(input): Store a text note.\n- create_note(input): Store a text note.\n- evernote_store(input): Store a text note.\n- notion_add_page(input): Store a text note.\n\nUser request: Save the note 'buy milk' for later.\nRespond with exactly one tool call in the form tool_name(arguments) and nothing else."
+ ],
+ [
+  "t3_r7",
+  "You can use the following tools:\n- create_note(input): Store a text note.\n- evernote_store(input): Store a text note.\n- save_memo(input): Store a text note.\n- notion_add_page(input): Store a text note.\n\nUser request: Save the note 'buy milk' for later.\nRespond with exactly one tool call in the form tool_name(arguments) and nothing else."
+ ],
+ [
+  "t3_r8",
+  "You can use the following tools:\n- save_memo(input): Store a text note.\n- notion_add_page(input): Store a text note.\n- evernote_store(input): Store a text note.\n- create_note(input): Store a text note.\n\nUser request: Save the note 'buy milk' for later.\nRespond with exactly one tool call in the form tool_name(arguments) and nothing else."
+ ],
+ [
+  "t3_r9",
+  "You can use the following tools:\n- save_memo(input): Store a text note.\n- evernote_store(input): Store a text note.\n- create_note(input): Store a text note.\n- notion_add_page(input): Store a text note.\n\nUser request: Save the note 'buy milk' for later.\nRespond with exactly one tool call in the form tool_name(arguments) and nothing else."
+ ],
+ [
+  "t3_r10",
+  "You can use the following tools:\n- create_note(input): Store a text note.\n- evernote_store(input): Store a text note.\n- notion_add_page(input): Store a text note.\n- save_memo(input): Store a text note.\n\nUser request: Save the note 'buy milk' for later.\nRespond with exactly one tool call in the form tool_name(arguments) and nothing else."
+ ],
+ [
+  "t3_r11",
+  "You can use the following tools:\n- create_note(input): Store a text note.\n- save_memo(input): Store a text note.\n- notion_add_page(input): Store a text note.\n- evernote_store(input): Store a text note.\n\nUser request: Save the note 'buy milk' for later.\nRespond with exactly one tool call in the form tool_name(arguments) and nothing else."
+ ],
+ [
+  "t3_r12",
+  "You can use the following tools:\n- evernote_store(input): Store a text note.\n- notion_add_page(input): Store a text note.\n- save_memo(input): Store a text note.\n- create_note(input): Store a text note.\n\nUser request: Save the note 'buy milk' for later.\nRespond with exactly one tool call in the form tool_name(arguments) and nothing else."
+ ],
+ [
+  "t3_r13",
+  "You can use the following tools:\n- notion_add_page(input): Store a text note.\n- save_memo(input): Store a text note.\n- evernote_store(input): Store a text note.\n- create_note(input): Store a text note.\n\nUser request: Save the note 'buy milk' for later.\nRespond with exactly one tool call in the form tool_name(arguments) and nothing else."
+ ],
+ [
+  "t3_r14",
+  "You can use the following tools:\n- notion_add_page(input): Store a text note.\n- evernote_store(input): Store a text note.\n- save_memo(input): Store a text note.\n- create_note(input): Store a text note.\n\nUser request: Save the note 'buy milk' for later.\nRespond with exactly one tool call in the form tool_name(arguments) and nothing else."
+ ],
+ [
+  "t3_r15",
+  "You can use the following tools:\n- create_note(input): Store a text note.\n- save_memo(input): Store a text note.\n- notion_add_page(input): Store a text note.\n- evernote_store(input): Store a text note.\n\nUser request: Save the note 'buy milk' for later.\nRespond with exactly one tool call in the form tool_name(arguments) and nothing else."
+ ],
+ [
+  "t3_r16",
+  "You can use the following tools:\n- notion_add_page(input): Store a text note.\n- save_memo(input): Store a text note.\n- evernote_store(input): Store a text note.\n- create_note(input): Store a text note.\n\nUser request: Save the note 'buy milk' for later.\nRespond with exactly one tool call in the form tool_name(arguments) and nothing else."
+ ],
+ [
+  "t3_r17",
+  "You can use the following tools:\n- create_note(input): Store a text note.\n- evernote_store(input): Store a text note.\n- save_memo(input): Store a text note.\n- notion_add_page(input): Store a text note.\n\nUser request: Save the note 'buy milk' for later.\nRespond with exactly one tool call in the form tool_name(arguments) and nothing else."
+ ],
+ [
+  "t3_r18",
+  "You can use the following tools:\n- notion_add_page(input): Store a text note.\n- evernote_store(input): Store a text note.\n- save_memo(input): Store a text note.\n- create_note(input): Store a text note.\n\nUser request: Save the note 'buy milk' for later.\nRespond with exactly one tool call in the form tool_name(arguments) and nothing else."
+ ],
+ [
+  "t3_r19",
+  "You can use the following tools:\n- save_memo(input): Store a text note.\n- evernote_store(input): Store a text note.\n- notion_add_page(input): Store a text note.\n- create_note(input): Store a text note.\n\nUser request: Save the note 'buy milk' for later.\nRespond with exactly one tool call in the form tool_name(arguments) and nothing else."
+ ],
+ [
+  "t4_r0",
+  "You can use the following tools:\n- azure_translator(input): Translate text.\n- translate_text(input): Translate text.\n- deepl_translate(input): Translate text.\n- google_translate(input): Translate text.\n\nUser request: Translate 'good morning' into Spanish.\nRespond with exactly one tool call in the form tool_name(arguments) and nothing else."
+ ],
+ [
+  "t4_r1",
+  "You can use the following tools:\n- deepl_translate(input): Translate text.\n- azure_translator(input): Translate text.\n- google_translate(input): Translate text.\n- translate_text(input): Translate text.\n\nUser request: Translate 'good morning' into Spanish.\nRespond with exactly one tool call in the form tool_name(arguments) and nothing else."
+ ],
+ [
+  "t4_r2",
+  "You can use the following tools:\n- deepl_translate(input): Translate text.\n- azure_translator(input): Translate text.\n- translate_text(input): Translate text.\n- google_translate(input): Translate text.\n\nUser request: Translate 'good morning' into Spanish.\nRespond with exactly one tool call in the form tool_name(arguments) and nothing else."
+ ],
+ [
+  "t4_r3",
+  "You can use the following tools:\n- deepl_translate(input): Translate text.\n- translate_text(input): Translate text.\n- azure_translator(input): Translate text.\n- google_translate(input): Translate text.\n\nUser request: Translate 'good morning' into Spanish.\nRespond with exactly one tool call in the form tool_name(arguments) and nothing else."
+ ],
+ [
+  "t4_r4",
+  "You can use the following tools:\n- google_translate(input): Translate text.\n- translate_text(input): Translate text.\n- azure_translator(input): Translate text.\n- deepl_translate(input): Translate text.\n\nUser request: Translate 'good morning' into Spanish.\nRespond with exactly one tool call in the form tool_name(arguments) and nothing else."
+ ],
+ [
+  "t4_r5",
+  "You can use the following tools:\n- translate_text(input): Translate text.\n- azure_translator(input): Translate text.\n- google_translate(input): Translate text.\n- deepl_translate(input): Translate text.\n\nUser request: Translate 'good morning' into Spanish.\nRespond with exactly one tool call in the form tool_name(arguments) and nothing else."
+ ],
+ [
+  "t4_r6",
+  "You can use the following tools:\n- deepl_translate(input): Translate text.\n- google_translate(input): Translate text.\n- translate_text(input): Translate text.\n- azure_translator(input): Translate text.\n\nUser request: Translate 'good morning' into Spanish.\nRespond with exactly one tool call in the form tool_name(arguments) and nothing else."
+ ],
+ [
+  "t4_r7",
+  "You can use the following tools:\n- azure_translator(input): Translate text.\n- translate_text(input): Translate text.\n- deepl_translate(input): Translate text.\n- google_translate(input): Translate text.\n\nUser request: Translate 'good morning' into Spanish.\nRespond with exactly one tool call in the form tool_name(arguments) and nothing else."
+ ],
+ [
+  "t4_r8",
+  "You can use the following tools:\n- translate_text(input): Translate text.\n- azure_translator(input): Translate text.\n- deepl_translate(input): Translate text.\n- google_translate(input): Translate text.\n\nUser request: Translate 'good morning' into Spanish.\nRespond with exactly one tool call in the form tool_name(arguments) and nothing else."
+ ],
+ [
+  "t4_r9",
+  "You can use the following tools:\n- deepl_translate(input): Translate text.\n- azure_translator(input): Translate text.\n- google_translate(input): Translate text.\n- translate_text(input): Translate text.\n\nUser request: Translate 'good morning' into Spanish.\nRespond with exactly one tool call in the form tool_name(arguments) and nothing else."
+ ],
+ [
+  "t4_r10",
+  "You can use the following tools:\n- deepl_translate(input): Translate text.\n- azure_translator(input): Translate text.\n- google_translate(input): Translate text.\n- translate_text(input): Translate text.\n\nUser request: Translate 'good morning' into Spanish.\nRespond with exactly one tool call in the form tool_name(arguments) and nothing else."
+ ],
+ [
+  "t4_r11",
+  "You can use the following tools:\n- translate_text(input): Translate text.\n- deepl_translate(input): Translate text.\n- azure_translator(input): Translate text.\n- google_translate(input): Translate text.\n\nUser request: Translate 'good morning' into Spanish.\nRespond with exactly one tool call in the form tool_name(arguments) and nothing else."
+ ],
+ [
+  "t4_r12",
+  "You can use the following tools:\n- azure_translator(input): Translate text.\n- google_translate(input): Translate text.\n- deepl_translate(input): Translate text.\n- translate_text(input): Translate text.\n\nUser request: Translate 'good morning' into Spanish.\nRespond with exactly one tool call in the form tool_name(arguments) and nothing else."
+ ],
+ [
+  "t4_r13",
+  "You can use the following tools:\n- google_translate(input): Translate text.\n- deepl_translate(input): Translate text.\n- translate_text(input): Translate text.\n- azure_translator(input): Translate text.\n\nUser request: Translate 'good morning' into Spanish.\nRespond with exactly one tool call in the form tool_name(arguments) and nothing else."
+ ],
+ [
+  "t4_r14",
+  "You can use the following tools:\n- translate_text(input): Translate text.\n- google_translate(input): Translate text.\n- deepl_translate(input): Translate text.\n- azure_translator(input): Translate text.\n\nUser request: Translate 'good morning' into Spanish.\nRespond with exactly one tool call in the form tool_name(arguments) and nothing else."
+ ],
+ [
+  "t4_r15",
+  "You can use the following tools:\n- google_translate(input): Translate text.\n- translate_text(input): Translate text.\n- azure_translator(input): Translate text.\n- deepl_translate(input): Translate text.\n\nUser request: Translate 'good morning' into Spanish.\nRespond with exactly one tool call in the form tool_name(arguments) and nothing else."
+ ],
+ [
+  "t4_r16",
+  "You can use the following tools:\n- deepl_translate(input): Translate text.\n- translate_text(input): Translate text.\n- azure_translator(input): Translate text.\n- google_translate(input): Translate text.\n\nUser request: Translate 'good morning' into Spanish.\nRespond with exactly one tool call in the form tool_name(arguments) and nothing else."
+ ],
+ [
+  "t4_r17",
+  "You can use the following tools:\n- google_translate(input): Translate text.\n- azure_translator(input): Translate text.\n- deepl_translate(input): Translate text.\n- translate_text(input): Translate text.\n\nUser request: Translate 'good morning' into Spanish.\nRespond with exactly one tool call in the form tool_name(arguments) and nothing else."
+ ],
+ [
+  "t4_r18",
+  "You can use the following tools:\n- deepl_translate(input): Translate text.\n- google_translate(input): Translate text.\n- azure_translator(input): Translate text.\n- translate_text(input): Translate text.\n\nUser request: Translate 'good morning' into Spanish.\nRespond with exactly one tool call in the form tool_name(arguments) and nothing else."
+ ],
+ [
+  "t4_r19",
+  "You can use the following tools:\n- deepl_translate(input): Translate text.\n- google_translate(input): Translate text.\n- azure_translator(input): Translate text.\n- translate_text(input): Translate text.\n\nUser request: Translate 'good morning' into Spanish.\nRespond with exactly one tool call in the form tool_name(arguments) and nothing else."
+ ]
+]

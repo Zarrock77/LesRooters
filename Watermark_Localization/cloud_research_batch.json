@@ -1,0 +1,12 @@
+{
+  "batch": "scaleway_spatial_synthetic_20261121",
+  "registered_before": "Any spatial_v1 outer-fold result; first fold training was in progress when the second candidate was specified",
+  "candidates": [
+    {"name": "spatial", "spec": "spatial_experiment.json", "change": "Frozen native PixelSeal feature pyramid plus learned context head"},
+    {"name": "synthetic", "spec": "synthetic_experiment.json", "change": "Same architecture, 820 fit-parent-only synthetic pretraining updates, then 120 real epochs with recomputed dihedral guidance"}
+  ],
+  "selection": "Each candidate selects checkpoint and per-method threshold on its own inner tune splits. No outer-driven hyperparameter search, per-method cherry-picking or blend sweep.",
+  "promotion": "Compare to Adobe initially; if spatial is accepted by the existing gate, synthetic must also beat spatial under the same gate before replacing it. All5foldgains>0, paired mean>=0.002, conditional99percentbootstraplower>0.",
+  "public_leaderboard": "Submission receipt tracking only; never a criterion for adjusting the experiment.",
+  "limitations": "Two planned candidates still create model-selection uncertainty. The510trainingimages have been reused for development; final hidden organizer data is the independent evaluation. No promise of zero overfitting or a near-perfect score."
+}

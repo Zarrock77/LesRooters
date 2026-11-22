@@ -1,0 +1,29 @@
+{
+  "architecture": "residual",
+  "oof_miou": 0.4862388583334847,
+  "baseline_oof_miou": 0.41096552199763875,
+  "paired_gain": 0.07527333633584599,
+  "paired_gain_bootstrap_95pct_interval": [
+    0.0647947207562166,
+    0.08592026800245486
+  ],
+  "image_bootstrap_95pct_interval": [
+    0.47928344535464196,
+    0.4934765509891728
+  ],
+  "interval_caveat": "Conditional on these trained folds; does not include all training or architecture-selection uncertainty.",
+  "fold_miou": [
+    0.4958258630492371,
+    0.4731211156272064,
+    0.4812743510811843,
+    0.4898644471802907,
+    0.4911085147295052
+  ],
+  "methods": {
+    "pixelseal": 0.5158972383426806,
+    "trustmark": 0.4713226815967182,
+    "stegastamp": 0.4714966550610553
+  },
+  "images": 510,
+  "protocol_sha256": "12245f4e0b439a7ec6f2ea9d3df2a8470c839b190401d1f9c8064d2697c86f99"
+}

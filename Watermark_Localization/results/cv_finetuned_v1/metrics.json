@@ -1,0 +1,33 @@
+{
+  "candidates": {
+    "finetuned": {
+      "oof_miou": 0.5312962319410479,
+      "paired_gain": 0.12033070994340919,
+      "paired_gain_95pct": [
+        0.10684426085917241,
+        0.13436247508557742
+      ],
+      "fold_miou": [
+        0.5297644523545618,
+        0.5297153178438317,
+        0.5424040929313952,
+        0.5219412758242717,
+        0.532656020751179
+      ],
+      "fold_gain": [
+        0.122542104812488,
+        0.11649517956815784,
+        0.12909447658338727,
+        0.1085046355194963,
+        0.1250171532335165
+      ],
+      "methods": {
+        "pixelseal": 0.499956879099803,
+        "trustmark": 0.516034479463732,
+        "stegastamp": 0.5778973372596086
+      }
+    }
+  },
+  "caveat": "Architectures developed on this dataset before CV; not a pristine final test. Source IDs absent.",
+  "selection": "Fine-tuning retained only when inner tune improves; outer masks never fitted."
+}

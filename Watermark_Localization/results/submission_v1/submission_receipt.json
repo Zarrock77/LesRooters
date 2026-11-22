@@ -1,0 +1,16 @@
+{
+  "task_id": "34-watermark-localisation-image",
+  "endpoint": "http://34.147.229.55/submit/34-watermark-localisation-image",
+  "artifact_sha256": "25a6e4801b7955833abf426bd80fa60e4b95ca7987eddae8bc56317d9ff878b3",
+  "artifact_bytes": 16734888,
+  "started_at": "2026-11-21T15:35:19.451054+00:00",
+  "status": "accepted",
+  "finished_at": "2026-11-21T15:35:31.406161+00:00",
+  "http_status": 200,
+  "response": {
+    "submission_id": 1118,
+    "status": "success",
+    "score": 0.4047,
+    "message": "Submission accepted. Public-split score shown; the held out subset determines the final ranking."
+  }
+}

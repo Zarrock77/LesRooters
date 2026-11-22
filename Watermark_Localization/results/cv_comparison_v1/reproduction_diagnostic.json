@@ -1,0 +1,43 @@
+{
+  "fold": 0,
+  "device": "NVIDIA A100-SXM4-40GB",
+  "torch": "2.5.1+cu124",
+  "results": {
+    "pixelseal": {
+      "threshold": 0.5,
+      "images_changed": 28,
+      "pixels_changed": 188,
+      "fraction_changed": 0.00033748851102941176,
+      "max_pixels_per_image": 17,
+      "probability_mean_abs_diff": 0.00043806646135635674,
+      "probability_max_abs_diff": 0.05111205577850342,
+      "old_miou": 0.5065617552576923,
+      "new_miou": 0.5066559325614203,
+      "max_image_miou_diff": 0.0014691635888609555
+    },
+    "trustmark": {
+      "threshold": 0.45000000000000007,
+      "images_changed": 26,
+      "pixels_changed": 111,
+      "fraction_changed": 0.00019926183363970588,
+      "max_pixels_per_image": 13,
+      "probability_mean_abs_diff": 0.00023336242884397507,
+      "probability_max_abs_diff": 0.022765040397644043,
+      "old_miou": 0.498293823358035,
+      "new_miou": 0.4982709583547289,
+      "max_image_miou_diff": 0.000897324249428344
+    },
+    "stegastamp": {
+      "threshold": 0.5,
+      "images_changed": 30,
+      "pixels_changed": 142,
+      "fraction_changed": 0.0002549115349264706,
+      "max_pixels_per_image": 16,
+      "probability_mean_abs_diff": 0.0002685523359104991,
+      "probability_max_abs_diff": 0.0767759382724762,
+      "old_miou": 0.5818692581274988,
+      "new_miou": 0.5819474859255824,
+      "max_image_miou_diff": 0.0022882826528630718
+    }
+  }
+}

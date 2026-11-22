@@ -1,0 +1,18 @@
+{
+  "image_name": "deb4c0be1388",
+  "adobe": {
+    "fold": 0,
+    "fit": false,
+    "tune": false,
+    "outer": true,
+    "miou": 0.6774570803422778
+  },
+  "spatial": {
+    "fold": 0,
+    "fit": false,
+    "tune": false,
+    "outer": true,
+    "miou": 0.5473280376680303
+  },
+  "delta": -0.13012904267424752
+}

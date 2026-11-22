@@ -1,0 +1,32 @@
+{
+  "candidate": "bbox",
+  "reference": "pretrained",
+  "export_recommended": false,
+  "rule": "All five fold gains positive, paired bootstrap 99% lower bound positive, mean gain >= 0.002.",
+  "caveat": "Conditional image bootstrap. Reused development data; not an untouched final test.",
+  "oof_miou": 0.5307701673517116,
+  "paired_gain": -0.0003889887292302947,
+  "paired_gain_99pct": [
+    -0.0015519634268707438,
+    0.0005847702481671282
+  ],
+  "fold_miou": [
+    0.5287853068321426,
+    0.5279026990544244,
+    0.5434751862761951,
+    0.5209970258430696,
+    0.5326906187527258
+  ],
+  "fold_gain": [
+    -0.0001229720822660535,
+    -0.00182197156388542,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "methods": {
+    "pixelseal": 0.5000337891888263,
+    "trustmark": 0.514293564962429,
+    "stegastamp": 0.5779831479038791
+  }
+}

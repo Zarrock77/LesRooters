@@ -1,0 +1,14 @@
+{
+  "frozen_at_utc": "2026-11-21T16:33:52Z",
+  "incumbent": "cv_pretrained_v1",
+  "official_incumbent_submission": 1210,
+  "folds": "Existing five nested folds; 324 fit, 84 inner tune, 102 outer per fold",
+  "candidates": [
+    "Eight-view dihedral averaging of current checkpoints, unchanged thresholds",
+    "Frozen pretrained segmenter plus PixelSeal native/512 detection-logit guidance, 120 epochs, same inner selection",
+    "Fixed equal calibrated-probability blend of incumbent and detector-guided model"
+  ],
+  "promotion": "Positive paired gain in all five folds, positive 99% conditional bootstrap lower bound, mean gain >= 0.002 versus incumbent",
+  "public_leaderboard": "Observe submitted results only; no threshold, weight, architecture or seed tuning against public scores",
+  "limitations": "Architecture development and repeated CV have used these data. This protocol limits further selection but cannot guarantee zero overfitting; hidden organizer split is the independent final test."
+}

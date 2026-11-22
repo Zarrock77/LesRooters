@@ -1,0 +1,32 @@
+{
+  "methods": {
+    "pixelseal": {
+      "validation_miou": 0.440782390551368,
+      "inner_selection": {
+        "threshold": 0.8,
+        "miou": 0.4518978801990027,
+        "step": 800
+      }
+    },
+    "trustmark": {
+      "validation_miou": 0.44962054880465596,
+      "inner_selection": {
+        "threshold": 0.6000000000000001,
+        "miou": 0.4525036129779444,
+        "step": 600
+      }
+    },
+    "stegastamp": {
+      "validation_miou": 0.44792098516261253,
+      "inner_selection": {
+        "threshold": 0.25,
+        "miou": 0.4687329909758486,
+        "step": 600
+      }
+    }
+  },
+  "validation_miou": 0.4461079748395455,
+  "fit_images": 324,
+  "inner_tune_images": 84,
+  "validation_images": 102
+}
